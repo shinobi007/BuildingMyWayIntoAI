@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>ProofLoop — Role Explorer</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><span class="brand-icon">P<span>:</span></span><div><strong>ProofLoop</strong><small>Building My Way Into AI</small></div></div>
+    <span class="tag">LOCAL · READ ONLY</span>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">ATTEMPT #001 / OPENAI</div>
+      <h1>Explore the evidence.<br><span>Understand the opportunity.</span></h1>
+      <p>Search a frozen, source-traceable job dataset. See exactly what the employer published, without confusing automated classifications with eligibility or qualifications.</p>
+      <div class="metrics">
+        <div class="metric"><small>ROLES IN SQLITE</small><strong id="total">—</strong></div>
+        <div class="metric"><small>WORK ARRANGEMENTS</small><strong id="types">—</strong></div>
+        <div class="metric"><small>DATA ACCESS</small><strong class="ok">READ ONLY</strong></div>
+      </div>
+    </section>
+    <section class="workspace" aria-label="Role search and inspection">
+      <aside class="sidebar">
+        <div class="side-heading"><h2>Filters</h2><button id="clear" class="text-button">Reset</button></div>
+        <label for="search">Search title, team, description</label>
+        <input type="search" id="search" placeholder="e.g. support, Python, API" autocomplete="off">
+        <label for="team">Team</label>
+        <select id="team"><option value="">All teams</option></select>
+        <label for="location">Location contains</label>
+        <input id="location" type="search" placeholder="e.g. San Francisco">
+        <label for="workplace">Workplace type</label>
+        <select id="workplace"><option value="">All arrangements</option></select>
+        <label for="remote">Raw is_remote field</label>
+        <select id="remote"><option value="">Any value</option><option value="true">True</option><option value="false">False</option><option value="unknown">Missing / unknown</option></select>
+        <p class="warning"><strong>Important:</strong> <code>is_remote=true</code> can coexist with “Hybrid.” Nothing here certifies remote work from Utah.</p>
+      </aside>
+      <div class="main-panel">
+        <div class="result-bar"><div><h2>OpenAI role inventory</h2><p id="results-info" aria-live="polite">Loading source records…</p></div><div class="sort"><label for="sort">Sort</label><select id="sort"><option value="title">Title A–Z</option><option value="title_desc">Title Z–A</option><option value="newest">Newest posted</option><option value="team">Team A–Z</option><option value="location">Location A–Z</option></select></div></div>
+        <div id="role-list" class="role-list" aria-live="polite"></div>
+        <div class="pagination"><button id="prev" disabled>← Previous</button><span id="page-info">—</span><button id="next" disabled>Next →</button></div>
+      </div>
+    </section>
+    <p class="footnote">Independent portfolio demo. The archived postings are not a live hiring feed. Role data remains on your computer; this viewer makes no external API requests.</p>
+  </main>
+  <dialog id="detail" class="detail"><div class="modal-head"><span class="eyebrow">SOURCE ROLE RECORD</span><button id="close" aria-label="Close role detail">×</button></div><div class="modal-body"><h2 id="detail-title"></h2><div class="detail-meta" id="detail-meta"></div><div class="detail-actions"><a id="source-link" target="_blank" rel="noopener noreferrer">Source posting ↗</a><a id="apply-link" target="_blank" rel="noopener noreferrer">Application ↗</a></div><div class="tab-bar"><button id="show-description" class="selected">Description</button><button id="show-provenance">Provenance</button><button id="show-canonical">Normalized record</button></div><pre id="detail-text" class="source-body"></pre></div></dialog>
+</body>
+</html>
