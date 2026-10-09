@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "preferred_domains": [
+    "technical_support", "api_integration", "programming", "automation",
+    "systems_network", "testing_data", "security_investigation", "documentation"
+  ],
+  "exclude_sales": true,
+  "require_technical_core": true,
+  "allow_us_remote": true,
+  "allow_us_relocation": true,
+  "require_relocation_assistance": true,
+  "allow_non_us": false,
+  "max_deep_candidates": 100
+}

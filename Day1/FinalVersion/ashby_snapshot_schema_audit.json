@@ -1,0 +1,253 @@
+{
+  "report_kind": "snapshot_schema_inventory",
+  "generated_at_utc": "2026-10-09T03:59:57.219648+00:00",
+  "source_file": "openai_ashby_snapshot_2026-10-07(1).json",
+  "source_sha256": "97bdd769266238538febac6448a9a1dd2502a8a6765d6feba2e22073b66e4ba5",
+  "source_bytes": 14965633,
+  "api_version": "1",
+  "job_count": 815,
+  "unique_ids": 815,
+  "root_fields": [
+    "apiVersion",
+    "jobs"
+  ],
+  "job_fields": {
+    "address": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "dict": 815
+      }
+    },
+    "applyUrl": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "compensation": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "dict": 815
+      }
+    },
+    "department": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "descriptionHtml": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "descriptionPlain": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "employmentType": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "id": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "isListed": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "bool": 815
+      }
+    },
+    "isRemote": {
+      "present": 815,
+      "not_null": 559,
+      "nonempty": 559,
+      "types": {
+        "NoneType": 256,
+        "bool": 559
+      }
+    },
+    "jobUrl": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "location": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "publishedAt": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "secondaryLocations": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 142,
+      "types": {
+        "list": 815
+      }
+    },
+    "shouldDisplayCompensationOnJobPostings": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "bool": 815
+      }
+    },
+    "team": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "title": {
+      "present": 815,
+      "not_null": 815,
+      "nonempty": 815,
+      "types": {
+        "str": 815
+      }
+    },
+    "workplaceType": {
+      "present": 815,
+      "not_null": 559,
+      "nonempty": 559,
+      "types": {
+        "NoneType": 256,
+        "str": 559
+      }
+    }
+  },
+  "flag_counts": {
+    "isListed": {
+      "True": 815
+    },
+    "isRemote": {
+      "None": 256,
+      "True": 530,
+      "False": 29
+    },
+    "workplaceType": {
+      "None": 256,
+      "'Hybrid'": 509,
+      "'Remote'": 21,
+      "'OnSite'": 29
+    },
+    "employmentType": {
+      "'FullTime'": 814,
+      "'Contract'": 1
+    },
+    "shouldDisplayCompensationOnJobPostings": {
+      "True": 657,
+      "False": 158
+    }
+  },
+  "compensation_visibility": {
+    "true": {
+      "records": 657,
+      "nonempty_tiers": 657,
+      "nonempty_compensation_summary": 657
+    },
+    "false": {
+      "records": 158,
+      "nonempty_tiers": 0,
+      "nonempty_compensation_summary": 0
+    }
+  },
+  "secondary_location_count": 231,
+  "jobs_with_secondary_locations": 142,
+  "nested_keys": {
+    "compensation": {
+      "compensationTierSummary": 815,
+      "scrapeableCompensationSalarySummary": 815,
+      "compensationTiers": 815,
+      "summaryComponents": 815
+    },
+    "compensation_tier": {
+      "id": 668,
+      "tierSummary": 668,
+      "title": 668,
+      "additionalInformation": 668,
+      "components": 668
+    },
+    "compensation_component": {
+      "id": 1346,
+      "summary": 1346,
+      "compensationType": 1346,
+      "interval": 1346,
+      "currencyCode": 1346,
+      "minValue": 1346,
+      "maxValue": 1346
+    },
+    "compensation_summary_component": {
+      "compensationType": 1320,
+      "interval": 1320,
+      "currencyCode": 1307,
+      "minValue": 1320,
+      "maxValue": 1320
+    },
+    "primary_address": {
+      "addressRegion": 719,
+      "addressCountry": 812,
+      "addressLocality": 743,
+      "postalCode": 2,
+      "streetAddress": 2
+    },
+    "secondary_location": {
+      "location": 231,
+      "address": 231
+    },
+    "secondary_address": {
+      "addressRegion": 201,
+      "addressCountry": 231,
+      "addressLocality": 206
+    }
+  },
+  "notes": [
+    "Historical frozen snapshot; counts are not live job availability.",
+    "Field presence in this snapshot does not guarantee future non-null values.",
+    "Raw snapshot must remain unchanged; source hash identifies it.",
+    "Undocumented observed keys id and shouldDisplayCompensationOnJobPostings should be retained without assuming formal API guarantee."
+  ]
+}

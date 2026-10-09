@@ -1,0 +1,41 @@
+# Python / OS temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# These are reproducible local run outputs; Git history carries the source code and curated evidence.
+# Ignoring files does NOT delete them from FinalVersion or prevent you from sharing them separately.
+runs/
+sample_*/
+portfolio_sprint_001/
+*.zip
+*.7z
+*.bak
+*.tmp
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.jsonl
+*.csv
+ashby_snapshot*.json
+openai_ashby_snapshot*.json
+openai_role_inventory*.json
+
+# Intentionally included: a SMALL, real Stage 3 database excerpt for the reviewer.
+!examples/openai_snapshot_25.sqlite3
+
+# Avoid accidentally publishing real login tokens, API keys, or local environment configs.
+*.pem
+*.key
+id_rsa*
+credentials.json
