@@ -1,0 +1,44 @@
+{
+  "builder": "ProofLoop Enriched SQLite Builder v0.11",
+  "generated_at_utc": "2026-10-08T03:25:37.586439+00:00",
+  "inputs": {
+    "html_jsonl": "openai_roles.jsonl",
+    "api_jsonl": "openai_ashby_roles.jsonl",
+    "reconciliation_report": "openai_ashby_reconciliation_report_v0_9_1.json"
+  },
+  "output_database": "proofloop_enriched.db",
+  "expected": {
+    "html_roles": 817,
+    "api_roles": 815,
+    "canonical_union": 818
+  },
+  "observed": {
+    "html_roles": 817,
+    "api_roles": 815,
+    "canonical_union": 818
+  },
+  "table_counts": {
+    "roles": 818,
+    "html_roles": 817,
+    "api_roles": 815,
+    "api_secondary_locations": 231,
+    "api_compensation_components": 1320
+  },
+  "status_counts": {
+    "api_only": 1,
+    "html_only": 3,
+    "matched": 814
+  },
+  "reconciliation_summary": {
+    "html_roles": 817,
+    "api_roles": 815,
+    "matched": 814,
+    "html_only": 3,
+    "api_only": 1,
+    "matched_cosmetic_only_changes": 56,
+    "matched_substantive_title_or_team_changes": 0,
+    "html_records_without_ashby_id": 0,
+    "api_records_without_ashby_id": 0
+  },
+  "result": "PASS"
+}

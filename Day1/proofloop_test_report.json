@@ -1,0 +1,77 @@
+{
+  "test_suite": "ProofLoop Pipeline Test Suite v0.8.1",
+  "generated_at_utc": "2026-10-08T02:57:31.441103+00:00",
+  "python_version": "3.14.8",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "duration_seconds": 0.248123,
+  "summary": {
+    "tests_run": 10,
+    "passed": 10,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "result": "PASS"
+  },
+  "tests": [
+    {
+      "test": "__main__.TestProofLoopPipeline.test_01_google_redirect_is_unwrapped",
+      "status": "PASS",
+      "duration_seconds": 0.000423,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_02_html_parser_extracts_one_role",
+      "status": "PASS",
+      "duration_seconds": 0.000232,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_03_jsonl_writer_round_trip",
+      "status": "PASS",
+      "duration_seconds": 0.002097,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_04_sqlite_import_creates_expected_rows",
+      "status": "PASS",
+      "duration_seconds": 0.004822,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_05_sqlite_rejects_duplicate_career_url",
+      "status": "PASS",
+      "duration_seconds": 0.002728,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_06_sqlite_validator_passes_clean_synthetic_pipeline",
+      "status": "PASS",
+      "duration_seconds": 0.004708,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_07_v031_validator_accepts_correct_expected_count",
+      "status": "PASS",
+      "duration_seconds": 0.058695,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_08_v031_validator_rejects_wrong_expected_count_regression",
+      "status": "PASS",
+      "duration_seconds": 0.057741,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_09_v041_csv_converter_accepts_correct_count",
+      "status": "PASS",
+      "duration_seconds": 0.05892,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopPipeline.test_10_v041_converter_rejects_wrong_expected_count_regression",
+      "status": "PASS",
+      "duration_seconds": 0.057394,
+      "detail": null
+    }
+  ]
+}

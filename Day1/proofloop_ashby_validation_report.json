@@ -1,0 +1,211 @@
+{
+  "validator": "ProofLoop Ashby API Artifact Validator v0.10",
+  "generated_at_utc": "2026-10-08T03:20:47.922322+00:00",
+  "sources": {
+    "api_snapshot": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_snapshot_2026-10-07.json",
+    "html_jsonl": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.jsonl",
+    "normalized_api_jsonl": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_roles.jsonl",
+    "reconciliation_report": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_reconciliation_report_v0_9_1.json",
+    "reconciler": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_ashby_reconcile_v0_9_1.py"
+  },
+  "metrics": {
+    "raw_api_jobs": 815,
+    "html_rows": 817,
+    "normalized_api_rows": 815,
+    "matched": 814,
+    "html_only": 3,
+    "api_only": 1,
+    "cosmetic_changes": 56,
+    "substantive_changes": 0,
+    "html_missing_ashby_id": 0,
+    "api_missing_ashby_id": 0
+  },
+  "summary": {
+    "checks": 36,
+    "passed": 36,
+    "failed": 0,
+    "result": "PASS"
+  },
+  "checks": [
+    {
+      "name": "snapshot_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_snapshot_2026-10-07.json"
+    },
+    {
+      "name": "html_jsonl_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.jsonl"
+    },
+    {
+      "name": "api_jsonl_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_roles.jsonl"
+    },
+    {
+      "name": "reconciliation_report_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_reconciliation_report_v0_9_1.json"
+    },
+    {
+      "name": "reconciler_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_ashby_reconcile_v0_9_1.py"
+    },
+    {
+      "name": "reconciler_syntax",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "snapshot_jobs_array",
+      "passed": true,
+      "detail": "jobs type=list"
+    },
+    {
+      "name": "snapshot_loads",
+      "passed": true,
+      "detail": "Raw API snapshot parsed as JSON."
+    },
+    {
+      "name": "html_jsonl_loads",
+      "passed": true,
+      "detail": "Loaded 817 HTML-derived rows."
+    },
+    {
+      "name": "api_jsonl_loads",
+      "passed": true,
+      "detail": "Loaded 815 normalized API rows."
+    },
+    {
+      "name": "reconciliation_report_loads",
+      "passed": true,
+      "detail": "Reconciliation report parsed as JSON object."
+    },
+    {
+      "name": "snapshot_expected_count",
+      "passed": true,
+      "detail": "Found 815; expected 815."
+    },
+    {
+      "name": "api_jsonl_expected_count",
+      "passed": true,
+      "detail": "Found 815; expected 815."
+    },
+    {
+      "name": "html_jsonl_expected_count",
+      "passed": true,
+      "detail": "Found 817; expected 817."
+    },
+    {
+      "name": "api_jsonl_fields_exact",
+      "passed": true,
+      "detail": "Every normalized API row uses the expected ordered field set."
+    },
+    {
+      "name": "api_source_indexes_sequential",
+      "passed": true,
+      "detail": "Expected source_index 1..815."
+    },
+    {
+      "name": "api_source_snapshot_provenance",
+      "passed": true,
+      "detail": "Observed source_snapshot values: ['openai_ashby_snapshot_2026-10-07.json']"
+    },
+    {
+      "name": "api_ashby_ids_present",
+      "passed": true,
+      "detail": "Nonblank IDs: 815/815."
+    },
+    {
+      "name": "api_ashby_ids_unique",
+      "passed": true,
+      "detail": "Unique IDs: 815/815."
+    },
+    {
+      "name": "api_apply_urls_unique",
+      "passed": true,
+      "detail": "Unique apply URLs: 815/815."
+    },
+    {
+      "name": "api_job_urls_unique",
+      "passed": true,
+      "detail": "Unique job URLs: 815/815."
+    },
+    {
+      "name": "api_url_ids_match_ashby_id",
+      "passed": true,
+      "detail": "Ashby ID matches both job_url and apply_url for every row."
+    },
+    {
+      "name": "normalized_api_matches_raw_snapshot_row_for_row",
+      "passed": true,
+      "detail": "Normalized API JSONL exactly matches independently normalized raw snapshot data."
+    },
+    {
+      "name": "independent_reconciliation_arithmetic_html",
+      "passed": true,
+      "detail": "matched 814 + html_only 3 = 817."
+    },
+    {
+      "name": "independent_reconciliation_arithmetic_api",
+      "passed": true,
+      "detail": "matched 814 + api_only 1 = 815."
+    },
+    {
+      "name": "all_html_records_have_ashby_id",
+      "passed": true,
+      "detail": "Missing HTML Ashby IDs: 0."
+    },
+    {
+      "name": "all_api_records_have_ashby_id",
+      "passed": true,
+      "detail": "Missing API Ashby IDs: 0."
+    },
+    {
+      "name": "reconciliation_summary_matches_independent_calculation",
+      "passed": true,
+      "detail": "Report summary: {'html_roles': 817, 'api_roles': 815, 'matched': 814, 'html_only': 3, 'api_only': 1, 'matched_cosmetic_only_changes': 56, 'matched_substantive_title_or_team_changes': 0, 'html_records_without_ashby_id': 0, 'api_records_without_ashby_id': 0}"
+    },
+    {
+      "name": "report_html_only_ids_correct",
+      "passed": true,
+      "detail": "Report HTML-only IDs: 3."
+    },
+    {
+      "name": "report_api_only_ids_correct",
+      "passed": true,
+      "detail": "Report API-only IDs: 1."
+    },
+    {
+      "name": "report_cosmetic_change_ids_correct",
+      "passed": true,
+      "detail": "Report cosmetic IDs: 56."
+    },
+    {
+      "name": "report_substantive_change_ids_correct",
+      "passed": true,
+      "detail": "Report substantive IDs: 0."
+    },
+    {
+      "name": "no_substantive_title_or_team_changes",
+      "passed": true,
+      "detail": "Substantive matched changes: 0."
+    },
+    {
+      "name": "reconciler_regeneration_passes",
+      "passed": true,
+      "detail": "exit=0; jsonl=True; report=True"
+    },
+    {
+      "name": "regenerated_api_jsonl_byte_for_byte",
+      "passed": true,
+      "detail": "Regenerated normalized API JSONL is byte-for-byte identical."
+    },
+    {
+      "name": "regenerated_reconciliation_semantically_identical",
+      "passed": true,
+      "detail": "Regenerated reconciliation report matches all semantic sections."
+    }
+  ]
+}

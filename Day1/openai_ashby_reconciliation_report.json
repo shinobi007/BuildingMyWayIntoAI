@@ -1,0 +1,621 @@
+{
+  "summary": {
+    "html_roles": 817,
+    "api_roles": 815,
+    "matched": 814,
+    "html_only": 3,
+    "api_only": 1,
+    "matched_with_title_or_team_changes": 56,
+    "html_records_without_ashby_id": 0,
+    "api_records_without_ashby_id": 0
+  },
+  "html_only": [
+    {
+      "ashby_id": "26e8c199-7dcb-4144-b263-f35220421a6d",
+      "role_id": 808,
+      "title": "Trust & Safety Ads Operations Analyst, Data",
+      "team": "Trust & Safety",
+      "display_location": "San Francisco",
+      "career_url": "https://openai.com/careers/trust-and-safety-ads-operations-analyst-data-san-francisco/",
+      "apply_url": "https://jobs.ashbyhq.com/openai/26e8c199-7dcb-4144-b263-f35220421a6d/application"
+    },
+    {
+      "ashby_id": "5f3a6397-47ac-4ef0-9ca9-cd358851a6b9",
+      "role_id": 728,
+      "title": "Strategic Delivery Lead, Intelligence Community",
+      "team": "OpenAI for Gov",
+      "display_location": "Washington, DC",
+      "career_url": "https://openai.com/careers/strategic-delivery-lead-intelligence-community-washington-dc/",
+      "apply_url": "https://jobs.ashbyhq.com/openai/5f3a6397-47ac-4ef0-9ca9-cd358851a6b9/application"
+    },
+    {
+      "ashby_id": "978a22a5-0f0f-4da7-811e-a4b2b2fbe659",
+      "role_id": 500,
+      "title": "Product Policy Research and Advisory Partnerships",
+      "team": "Product Policy",
+      "display_location": "New York City",
+      "career_url": "https://openai.com/careers/product-policy-research-and-advisory-partnerships-new-york-city/",
+      "apply_url": "https://jobs.ashbyhq.com/openai/978a22a5-0f0f-4da7-811e-a4b2b2fbe659/application"
+    }
+  ],
+  "api_only": [
+    {
+      "ashby_id": "848c5e55-422c-4797-add4-22e0e6511a47",
+      "title": "Accounting Manager",
+      "team": "Finance",
+      "primary_location": "San Francisco",
+      "published_at": "2026-10-07T19:38:48.962-06:00",
+      "job_url": "https://jobs.ashbyhq.com/openai/848c5e55-422c-4797-add4-22e0e6511a47",
+      "apply_url": "https://jobs.ashbyhq.com/openai/848c5e55-422c-4797-add4-22e0e6511a47/application"
+    }
+  ],
+  "matched_changes": [
+    {
+      "ashby_id": "0a24703f-6108-4422-807e-78831dd98ed1",
+      "html_role_id": 404,
+      "changes": {
+        "title": {
+          "html": "Manager, Applied AI Engineering (Enterprise)",
+          "api": "Manager, Applied AI Engineering  (Enterprise)"
+        }
+      }
+    },
+    {
+      "ashby_id": "0cebbcd0-7ff4-4492-8638-a7d7df1c0d22",
+      "html_role_id": 370,
+      "changes": {
+        "title": {
+          "html": "International Payroll Operations",
+          "api": "International Payroll Operations "
+        }
+      }
+    },
+    {
+      "ashby_id": "12342ebb-dcd4-45e2-b875-fc5447fdb7d8",
+      "html_role_id": 632,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Cloud Infrastructure",
+          "api": "Software Engineer, Cloud Infrastructure "
+        }
+      }
+    },
+    {
+      "ashby_id": "186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
+      "html_role_id": 73,
+      "changes": {
+        "title": {
+          "html": "AI Support Engineer - Toronto (Weekend Shift)",
+          "api": "AI Support Engineer - Toronto (Weekend Shift) "
+        }
+      }
+    },
+    {
+      "ashby_id": "18e64608-5881-4b8f-b5cf-abd09a8ff086",
+      "html_role_id": 83,
+      "changes": {
+        "title": {
+          "html": "APAC Vendor Lead, Ads - Singapore",
+          "api": " APAC Vendor Lead, Ads - Singapore"
+        }
+      }
+    },
+    {
+      "ashby_id": "1aa89889-9323-44eb-a3fb-042c68c45252",
+      "html_role_id": 350,
+      "changes": {
+        "title": {
+          "html": "Head of Marketplace",
+          "api": "Head of Marketplace "
+        }
+      }
+    },
+    {
+      "ashby_id": "1bf678c5-1058-45ca-b9bd-b0029fccd60e",
+      "html_role_id": 531,
+      "changes": {
+        "title": {
+          "html": "Research Engineer / Research Scientist - Personal AGI, Personalization",
+          "api": "Research Engineer / Research Scientist - Personal AGI, Personalization "
+        }
+      }
+    },
+    {
+      "ashby_id": "1d8596f7-a81f-432f-9828-cfa915726b3f",
+      "html_role_id": 362,
+      "changes": {
+        "title": {
+          "html": "Integrated Marketing Manager, AI Impact",
+          "api": "Integrated Marketing Manager, AI Impact "
+        }
+      }
+    },
+    {
+      "ashby_id": "201224fb-6d5f-4e3a-b183-25931d5c776d",
+      "html_role_id": 585,
+      "changes": {
+        "title": {
+          "html": "Senior Manager, Financial Reporting",
+          "api": "Senior Manager, Financial Reporting "
+        }
+      }
+    },
+    {
+      "ashby_id": "241154df-ab1a-4dfa-8b18-66e087d1e636",
+      "html_role_id": 259,
+      "changes": {
+        "title": {
+          "html": "Engineering Manager, Cooperative Systems",
+          "api": "Engineering Manager, Cooperative Systems "
+        }
+      }
+    },
+    {
+      "ashby_id": "28c96920-a412-47c0-88f8-342790d779ff",
+      "html_role_id": 442,
+      "changes": {
+        "title": {
+          "html": "Partner Director, McKinsey Alliance",
+          "api": "Partner Director, McKinsey Alliance "
+        }
+      }
+    },
+    {
+      "ashby_id": "29c2c171-fb63-4985-9ac5-229b2ff5ced6",
+      "html_role_id": 633,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Cloud Infrastructure",
+          "api": "Software Engineer, Cloud Infrastructure "
+        }
+      }
+    },
+    {
+      "ashby_id": "3a415c1d-4f66-4578-8eb3-8b15ef0ab52b",
+      "html_role_id": 239,
+      "changes": {
+        "title": {
+          "html": "Design Verification Engineer",
+          "api": "Design Verification Engineer "
+        }
+      }
+    },
+    {
+      "ashby_id": "3ac187b2-dd75-4acd-b285-51ae6e603dbd",
+      "html_role_id": 219,
+      "changes": {
+        "title": {
+          "html": "Data Scientist, Real Estate & Workplace",
+          "api": "Data Scientist, Real Estate & Workplace "
+        }
+      }
+    },
+    {
+      "ashby_id": "3ed37e51-40dc-4d17-8219-d3500af8892c",
+      "html_role_id": 501,
+      "changes": {
+        "title": {
+          "html": "Program Manager, Business Marketing",
+          "api": "Program Manager, Business Marketing "
+        }
+      }
+    },
+    {
+      "ashby_id": "3fefc615-6950-4a29-9214-eefdc4e659e3",
+      "html_role_id": 506,
+      "changes": {
+        "title": {
+          "html": "Protection Scientist Engineer, Integrity",
+          "api": "Protection Scientist Engineer, Integrity  "
+        }
+      }
+    },
+    {
+      "ashby_id": "41d9d129-2e58-4ad3-be81-2e5096f4da4d",
+      "html_role_id": 646,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Data Acquisition",
+          "api": "Software Engineer, Data Acquisition "
+        }
+      }
+    },
+    {
+      "ashby_id": "485cda77-5d8f-4aaa-bca5-916b011477e6",
+      "html_role_id": 127,
+      "changes": {
+        "title": {
+          "html": "Applied AI Engineer, Government",
+          "api": "Applied AI Engineer, Government "
+        }
+      }
+    },
+    {
+      "ashby_id": "4d7145cf-ef4e-4a39-b1ef-b58e4e5c06d2",
+      "html_role_id": 714,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Shop/Feed Ads",
+          "api": "Software Engineer, Shop/Feed Ads "
+        }
+      }
+    },
+    {
+      "ashby_id": "5280c9d2-8090-47d1-a881-1fec37c90e64",
+      "html_role_id": 586,
+      "changes": {
+        "title": {
+          "html": "Senior Manager, Occupancy Planning & Workplace Strategy",
+          "api": "Senior Manager, Occupancy Planning & Workplace Strategy "
+        }
+      }
+    },
+    {
+      "ashby_id": "529feb11-4b9b-4baf-9b3f-f2b100156c5a",
+      "html_role_id": 505,
+      "changes": {
+        "title": {
+          "html": "Protection Scientist Engineer, Integrity",
+          "api": "Protection Scientist Engineer, Integrity "
+        }
+      }
+    },
+    {
+      "ashby_id": "552396f4-dc83-43de-9230-6301e5f461bd",
+      "html_role_id": 438,
+      "changes": {
+        "title": {
+          "html": "Partner Applied AI Engineer",
+          "api": "Partner Applied AI Engineer "
+        }
+      }
+    },
+    {
+      "ashby_id": "56fceb8e-589b-410e-8b21-24f9945ccb9d",
+      "html_role_id": 93,
+      "changes": {
+        "title": {
+          "html": "Applied AI Architect, Digital Natives (Strategics)",
+          "api": "Applied AI Architect, Digital Natives (Strategics) "
+        }
+      }
+    },
+    {
+      "ashby_id": "5a265d2b-683f-4cea-9b69-8e137e704ab3",
+      "html_role_id": 458,
+      "changes": {
+        "title": {
+          "html": "Physical Design Engineer",
+          "api": "Physical Design Engineer "
+        }
+      }
+    },
+    {
+      "ashby_id": "5d5a4116-b409-4676-b357-7094ad87d15d",
+      "html_role_id": 368,
+      "changes": {
+        "title": {
+          "html": "Internal Communications Lead, Enterprise & Growth",
+          "api": "Internal Communications Lead,  Enterprise & Growth"
+        }
+      }
+    },
+    {
+      "ashby_id": "6202038a-323b-43ce-ae10-534acba4145c",
+      "html_role_id": 77,
+      "changes": {
+        "title": {
+          "html": "Android Engineer, Applied Foundations",
+          "api": "Android Engineer, Applied Foundations "
+        }
+      }
+    },
+    {
+      "ashby_id": "65b255da-4fd9-414e-98d4-0bec4eecf8ff",
+      "html_role_id": 494,
+      "changes": {
+        "title": {
+          "html": "Product Manufacturing & Quality Engineer",
+          "api": "Product Manufacturing & Quality Engineer "
+        }
+      }
+    },
+    {
+      "ashby_id": "66288824-8b77-4774-bc57-6825d3e6221e",
+      "html_role_id": 305,
+      "changes": {
+        "title": {
+          "html": "Full Stack Software Engineer, API Experience",
+          "api": "Full Stack Software Engineer, API Experience "
+        }
+      }
+    },
+    {
+      "ashby_id": "6fdc9e35-c9d9-49fb-a8f7-80d2d7f03968",
+      "html_role_id": 550,
+      "changes": {
+        "title": {
+          "html": "Researcher, Training - London",
+          "api": "Researcher, Training - London "
+        }
+      }
+    },
+    {
+      "ashby_id": "780b0dfa-1068-4e94-8dc9-84b7fd1c5264",
+      "html_role_id": 590,
+      "changes": {
+        "title": {
+          "html": "Senior Product Policy Lead, Regulation",
+          "api": "Senior Product Policy Lead, Regulation "
+        }
+      }
+    },
+    {
+      "ashby_id": "7f76be3a-38d0-4ff4-b997-9f1672e78bc0",
+      "html_role_id": 274,
+      "changes": {
+        "title": {
+          "html": "Forward Deployed Engineer (FDE), Financial Services- NYC",
+          "api": "Forward Deployed Engineer (FDE), Financial Services- NYC "
+        }
+      }
+    },
+    {
+      "ashby_id": "823a05bf-33fb-4d94-9dd8-571723d27b1a",
+      "html_role_id": 676,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Infrastructure - Core Experimentation",
+          "api": "Software Engineer, Infrastructure - Core Experimentation "
+        }
+      }
+    },
+    {
+      "ashby_id": "83f6d415-9462-4afc-a539-ca8d996e011a",
+      "html_role_id": 484,
+      "changes": {
+        "title": {
+          "html": "Product Manager, Enterprise Identity",
+          "api": "Product Manager, Enterprise Identity "
+        }
+      }
+    },
+    {
+      "ashby_id": "894ce80d-c587-4ef0-92d2-b16deb9a06b9",
+      "html_role_id": 212,
+      "changes": {
+        "title": {
+          "html": "Data Scientist, Cybersecurity",
+          "api": "Data Scientist, Cybersecurity "
+        }
+      }
+    },
+    {
+      "ashby_id": "898a87fb-4cb8-450e-9840-ee5dc710a57d",
+      "html_role_id": 213,
+      "changes": {
+        "title": {
+          "html": "Data Scientist, Financial Engineering",
+          "api": "Data Scientist, Financial Engineering "
+        }
+      }
+    },
+    {
+      "ashby_id": "8a50f878-5252-4f65-ad84-80ae2dc5637e",
+      "html_role_id": 587,
+      "changes": {
+        "title": {
+          "html": "Senior Manager, Technical Revenue Accounting, Ads",
+          "api": "Senior Manager, Technical Revenue Accounting, Ads "
+        }
+      }
+    },
+    {
+      "ashby_id": "9117987a-7a59-449e-a702-89e8d0e8cb60",
+      "html_role_id": 683,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, ML Systems & Training Architecture",
+          "api": "Software Engineer,  ML Systems & Training Architecture"
+        }
+      }
+    },
+    {
+      "ashby_id": "9cd24517-1055-45fb-a47c-e213452132d4",
+      "html_role_id": 46,
+      "changes": {
+        "title": {
+          "html": "Ads Marketing Manager, Japan",
+          "api": "Ads Marketing Manager, Japan "
+        }
+      }
+    },
+    {
+      "ashby_id": "9d26d55c-6989-4607-99be-1fa44cb94983",
+      "html_role_id": 435,
+      "changes": {
+        "title": {
+          "html": "Operations Exploratory",
+          "api": "Operations Exploratory "
+        }
+      }
+    },
+    {
+      "ashby_id": "a51b521c-d3bf-4653-99c6-c9152827cfb8",
+      "html_role_id": 441,
+      "changes": {
+        "title": {
+          "html": "Partner Director, HCL, Wipro & Cognizant",
+          "api": "Partner Director, HCL, Wipro & Cognizant "
+        }
+      }
+    },
+    {
+      "ashby_id": "b5a022bb-f7a5-47d9-b5e8-9d1575493dcf",
+      "html_role_id": 423,
+      "changes": {
+        "title": {
+          "html": "Model Policy Manager, Agentic Safety",
+          "api": "Model Policy Manager, Agentic Safety "
+        }
+      }
+    },
+    {
+      "ashby_id": "b65d4fb6-1624-4518-bf94-e57ddaa35193",
+      "html_role_id": 17,
+      "changes": {
+        "title": {
+          "html": "Account Director, Digital Natives",
+          "api": "Account Director, Digital Natives "
+        }
+      }
+    },
+    {
+      "ashby_id": "bdbb2292-ecb3-42dc-ba89-65edf397d8f8",
+      "html_role_id": 343,
+      "changes": {
+        "title": {
+          "html": "Hardware / Software CoDesign Engineer - 3P",
+          "api": "Hardware / Software CoDesign Engineer  - 3P"
+        }
+      }
+    },
+    {
+      "ashby_id": "c1a28411-266b-487b-8ef3-03efb254fc36",
+      "html_role_id": 108,
+      "changes": {
+        "title": {
+          "html": "Applied AI Engineer, Agent Enablement",
+          "api": "Applied AI Engineer, Agent Enablement "
+        }
+      }
+    },
+    {
+      "ashby_id": "c51e48ce-31ad-4176-a6d5-4a785b44ab73",
+      "html_role_id": 690,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, Monetization Product & Platform",
+          "api": "Software Engineer, Monetization Product & Platform "
+        }
+      }
+    },
+    {
+      "ashby_id": "c7c5ef17-af83-483c-a825-f461f9f63b17",
+      "html_role_id": 552,
+      "changes": {
+        "title": {
+          "html": "Research Program Manager",
+          "api": "Research Program Manager "
+        }
+      }
+    },
+    {
+      "ashby_id": "cffa3a8d-918a-4e91-a1c6-3fa84a454408",
+      "html_role_id": 781,
+      "changes": {
+        "title": {
+          "html": "Technical Program Manager, Applied API & Product",
+          "api": "Technical Program Manager, Applied API & Product "
+        }
+      }
+    },
+    {
+      "ashby_id": "de76301c-7289-40a5-972a-ab144f189b4f",
+      "html_role_id": 162,
+      "changes": {
+        "title": {
+          "html": "Capture Manager, OpenAI for Government",
+          "api": "Capture Manager, OpenAI for Government "
+        }
+      }
+    },
+    {
+      "ashby_id": "debaf5f8-c166-4b35-81c1-5bda75124373",
+      "html_role_id": 739,
+      "changes": {
+        "title": {
+          "html": "Strategic Sourcing Manager, Compute Infrastructure",
+          "api": "Strategic Sourcing Manager,  Compute Infrastructure"
+        }
+      }
+    },
+    {
+      "ashby_id": "e6981259-c1d0-46de-8376-56bde28cfb10",
+      "html_role_id": 629,
+      "changes": {
+        "title": {
+          "html": "Software Engineer, ChatGPT Infrastructure",
+          "api": "Software Engineer, ChatGPT Infrastructure "
+        }
+      }
+    },
+    {
+      "ashby_id": "e90a44a7-fc2e-49bf-aec4-d43b9e3d8e92",
+      "html_role_id": 211,
+      "changes": {
+        "title": {
+          "html": "Data Scientist, Core Experimentation",
+          "api": "Data Scientist, Core Experimentation "
+        }
+      }
+    },
+    {
+      "ashby_id": "eacbd123-83fb-42c6-a5d5-e914b8e135b8",
+      "html_role_id": 132,
+      "changes": {
+        "title": {
+          "html": "Applied AI Engineer, Startups",
+          "api": "Applied AI Engineer, Startups "
+        }
+      }
+    },
+    {
+      "ashby_id": "ebc65e7d-d86a-4066-aa82-3a7758d97bb6",
+      "html_role_id": 261,
+      "changes": {
+        "title": {
+          "html": "Engineering Manager, Core Services",
+          "api": "Engineering Manager, Core Services "
+        }
+      }
+    },
+    {
+      "ashby_id": "ef828b89-41ed-4cde-96a9-94ffe5770d4c",
+      "html_role_id": 300,
+      "changes": {
+        "title": {
+          "html": "Full-Stack Engineer, ChatGPT Education & Learning",
+          "api": "Full-Stack Engineer, ChatGPT Education  & Learning"
+        }
+      }
+    },
+    {
+      "ashby_id": "f4720507-3c44-4162-af21-206ac3a78007",
+      "html_role_id": 172,
+      "changes": {
+        "title": {
+          "html": "Compensation Business Partner, GTM",
+          "api": "Compensation Business Partner, GTM "
+        }
+      }
+    },
+    {
+      "ashby_id": "f5dfd3aa-3bf6-49e2-b780-0da281a21533",
+      "html_role_id": 221,
+      "changes": {
+        "title": {
+          "html": "Data Scientist, SMB Ads Growth",
+          "api": "Data Scientist, SMB Ads Growth "
+        }
+      }
+    }
+  ],
+  "html_records_without_ashby_id": [],
+  "api_records_without_ashby_id": [],
+  "source": {
+    "api_snapshot": "openai_ashby_snapshot_2026-10-07.json",
+    "html_jsonl": "openai_roles.jsonl",
+    "normalized_api_jsonl": "openai_ashby_roles.jsonl"
+  }
+}

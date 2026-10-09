@@ -1,0 +1,89 @@
+{
+  "test_suite": "ProofLoop Enriched Database Test Suite v0.13",
+  "generated_at_utc": "2026-10-08T03:33:00.253992+00:00",
+  "python_version": "3.14.8",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "duration_seconds": 0.357321,
+  "summary": {
+    "tests_run": 12,
+    "passed": 12,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "result": "PASS"
+  },
+  "tests": [
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_01_normalize_text_collapses_whitespace",
+      "status": "PASS",
+      "duration_seconds": 0.000149,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_02_ashby_id_extraction_from_apply_url",
+      "status": "PASS",
+      "duration_seconds": 0.000102,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_03_builder_creates_union_and_source_statuses",
+      "status": "PASS",
+      "duration_seconds": 0.021691,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_04_matched_role_prefers_api_values_but_normalizes_whitespace",
+      "status": "PASS",
+      "duration_seconds": 0.019957,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_05_html_source_row_is_preserved_exactly",
+      "status": "PASS",
+      "duration_seconds": 0.018565,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_06_api_source_preserves_raw_and_normalized_text",
+      "status": "PASS",
+      "duration_seconds": 0.019383,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_07_secondary_locations_become_relational_rows",
+      "status": "PASS",
+      "duration_seconds": 0.018391,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_08_compensation_components_become_relational_rows",
+      "status": "PASS",
+      "duration_seconds": 0.020889,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_09_schema_rejects_invalid_source_status",
+      "status": "PASS",
+      "duration_seconds": 0.020745,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_10_builder_refuses_to_overwrite_existing_database",
+      "status": "PASS",
+      "duration_seconds": 0.066226,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_11_builder_rejects_wrong_expected_counts",
+      "status": "PASS",
+      "duration_seconds": 0.065754,
+      "detail": null
+    },
+    {
+      "test": "__main__.TestProofLoopEnrichedDatabase.test_12_builder_cli_creates_report_with_correct_counts",
+      "status": "PASS",
+      "duration_seconds": 0.085043,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "validator": "ProofLoop Enriched SQLite Validator v0.12",
+  "generated_at_utc": "2026-10-08T03:30:48.619634+00:00",
+  "database": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_enriched.db",
+  "sources": {
+    "html_jsonl": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.jsonl",
+    "api_jsonl": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_roles.jsonl",
+    "reconciliation_report": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_reconciliation_report_v0_9_1.json",
+    "build_report": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_enriched_db_build_report.json",
+    "builder": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_build_enriched_db_v0_11.py"
+  },
+  "expected": {
+    "html_roles": 817,
+    "api_roles": 815,
+    "canonical_union": 818
+  },
+  "metrics": {
+    "table_counts": {
+      "api_compensation_components": 1320,
+      "api_roles": 815,
+      "api_secondary_locations": 231,
+      "build_metadata": 8,
+      "html_roles": 817,
+      "roles": 818
+    },
+    "status_counts": {
+      "api_only": 1,
+      "html_only": 3,
+      "matched": 814
+    },
+    "metadata": {
+      "builder": "ProofLoop Enriched SQLite Builder v0.11",
+      "generated_at_utc": "2026-10-08T03:25:37.493134+00:00",
+      "html_source": "openai_roles.jsonl",
+      "api_source": "openai_ashby_roles.jsonl",
+      "reconciliation_source": "openai_ashby_reconciliation_report_v0_9_1.json",
+      "html_role_count": "817",
+      "api_role_count": "815",
+      "canonical_union_count": "818"
+    }
+  },
+  "summary": {
+    "checks": 34,
+    "passed": 34,
+    "failed": 0,
+    "result": "PASS"
+  },
+  "checks": [
+    {
+      "name": "db_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_enriched.db"
+    },
+    {
+      "name": "html_jsonl_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.jsonl"
+    },
+    {
+      "name": "api_jsonl_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_roles.jsonl"
+    },
+    {
+      "name": "reconciliation_report_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_ashby_reconciliation_report_v0_9_1.json"
+    },
+    {
+      "name": "build_report_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_enriched_db_build_report.json"
+    },
+    {
+      "name": "builder_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_build_enriched_db_v0_11.py"
+    },
+    {
+      "name": "source_artifacts_load",
+      "passed": true,
+      "detail": "HTML=817, API=815, reports parsed."
+    },
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "detail": "PRAGMA integrity_check returned 'ok'."
+    },
+    {
+      "name": "foreign_key_check",
+      "passed": true,
+      "detail": "Foreign-key issue rows: 0."
+    },
+    {
+      "name": "expected_tables_exact",
+      "passed": true,
+      "detail": "Observed tables: ['api_compensation_components', 'api_roles', 'api_secondary_locations', 'build_metadata', 'html_roles', 'roles']"
+    },
+    {
+      "name": "expected_user_indexes_present",
+      "passed": true,
+      "detail": "Observed user indexes: ['idx_api_published_at', 'idx_comp_type', 'idx_roles_department', 'idx_roles_location', 'idx_roles_source_status', 'idx_roles_team', 'idx_roles_title']"
+    },
+    {
+      "name": "roles_count",
+      "passed": true,
+      "detail": "roles=818; expected=818"
+    },
+    {
+      "name": "html_roles_count",
+      "passed": true,
+      "detail": "html_roles=817; expected=817"
+    },
+    {
+      "name": "api_roles_count",
+      "passed": true,
+      "detail": "api_roles=815; expected=815"
+    },
+    {
+      "name": "source_status_counts",
+      "passed": true,
+      "detail": "Observed: {'api_only': 1, 'html_only': 3, 'matched': 814}"
+    },
+    {
+      "name": "presence_flag_counts",
+      "passed": true,
+      "detail": "Observed: {(0, 1): 1, (1, 0): 3, (1, 1): 814}"
+    },
+    {
+      "name": "status_flags_consistent",
+      "passed": true,
+      "detail": "Inconsistent rows: 0."
+    },
+    {
+      "name": "canonical_required_fields_present",
+      "passed": true,
+      "detail": "Rows with blank required canonical fields: 0."
+    },
+    {
+      "name": "canonical_apply_urls_unique",
+      "passed": true,
+      "detail": "Duplicate canonical apply_url groups: 0."
+    },
+    {
+      "name": "api_url_ids_match",
+      "passed": true,
+      "detail": "URL/UUID mismatches: 0."
+    },
+    {
+      "name": "build_metadata_matches_sources",
+      "passed": true,
+      "detail": "Observed metadata keys: {'builder': 'ProofLoop Enriched SQLite Builder v0.11', 'generated_at_utc': '2026-10-08T03:25:37.493134+00:00', 'html_source': 'openai_roles.jsonl', 'api_source': 'openai_ashby_roles.jsonl', 'reconciliation_source': 'openai_ashby_reconciliation_report_v0_9_1.json', 'html_role_count': '817', 'api_role_count': '815', 'canonical_union_count': '818'}"
+    },
+    {
+      "name": "reject_duplicate_canonical_primary_key",
+      "passed": true,
+      "detail": "Duplicate canonical Ashby UUID rejected."
+    },
+    {
+      "name": "reject_duplicate_canonical_apply_url",
+      "passed": true,
+      "detail": "Duplicate canonical apply_url rejected."
+    },
+    {
+      "name": "reject_invalid_source_status",
+      "passed": true,
+      "detail": "Invalid source_status rejected by CHECK constraint."
+    },
+    {
+      "name": "reject_invalid_presence_flag",
+      "passed": true,
+      "detail": "Invalid present_in_html value rejected."
+    },
+    {
+      "name": "canonical_roles_match_independent_derivation",
+      "passed": true,
+      "detail": "Database canonical rows=818; independently derived=818."
+    },
+    {
+      "name": "html_source_preserved_row_for_row",
+      "passed": true,
+      "detail": "Database HTML rows=817; source rows=817."
+    },
+    {
+      "name": "api_source_preserved_row_for_row",
+      "passed": true,
+      "detail": "Database API rows=815; source rows=815."
+    },
+    {
+      "name": "secondary_locations_match_source",
+      "passed": true,
+      "detail": "Database secondary locations=231; derived=231."
+    },
+    {
+      "name": "compensation_components_match_source",
+      "passed": true,
+      "detail": "Database compensation components=1320; derived=1320."
+    },
+    {
+      "name": "database_agrees_with_reconciliation_report",
+      "passed": true,
+      "detail": "Reconciliation summary: {'html_roles': 817, 'api_roles': 815, 'matched': 814, 'html_only': 3, 'api_only': 1, 'matched_cosmetic_only_changes': 56, 'matched_substantive_title_or_team_changes': 0, 'html_records_without_ashby_id': 0, 'api_records_without_ashby_id': 0}"
+    },
+    {
+      "name": "build_report_matches_database_expectations",
+      "passed": true,
+      "detail": "Build report result=PASS; observed={'html_roles': 817, 'api_roles': 815, 'canonical_union': 818}"
+    },
+    {
+      "name": "builder_regeneration_passes",
+      "passed": true,
+      "detail": "exit=0; database exists=True"
+    },
+    {
+      "name": "regenerated_database_semantically_identical",
+      "passed": true,
+      "detail": "All domain tables and stable metadata match the original enriched database."
+    }
+  ]
+}
