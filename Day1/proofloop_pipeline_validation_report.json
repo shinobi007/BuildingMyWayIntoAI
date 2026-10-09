@@ -1,0 +1,250 @@
+{
+  "validator": "ProofLoop Full Pipeline Validator v0.7.2",
+  "root": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1",
+  "expected_rows": 817,
+  "metrics": {
+    "jsonl_rows": 817,
+    "csv_rows": 817,
+    "sqlite_rows": 817
+  },
+  "hashes_sha256": {
+    "zip": "fb00edad2f81689226fa95c3eea649d3a9f79de1343125fc94e3f7698557fba8",
+    "jsonl": "201605101613c7896a13c42fd286a02dc83c63b7fc187dfcde403109779f0d71",
+    "csv": "c4f33da70f9d02f67bddeaf73cb1b67d972b96a9bcc7bd5a943589c5ffce2838",
+    "db": "4f08d29433803965de8d5b0fa9d0462d14f50bf77535670d91289ee62bed982a",
+    "db_report": "809955c7e2c6c050ccabbac7fe60715c7f1eefd86f42be7626981fdc224caf5b"
+  },
+  "summary": {
+    "checks": 45,
+    "passed": 45,
+    "failed": 0,
+    "result": "PASS"
+  },
+  "checks": [
+    {
+      "name": "zip_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\OpenAI Careers.zip"
+    },
+    {
+      "name": "jsonl_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.jsonl"
+    },
+    {
+      "name": "csv_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\openai_roles.csv"
+    },
+    {
+      "name": "db_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop.db"
+    },
+    {
+      "name": "db_report_exists",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_db_validation_report.json"
+    },
+    {
+      "name": "script_exists:proofloop_openai_ingest_v0_1.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_openai_ingest_v0_1.py"
+    },
+    {
+      "name": "script_exists:proofloop_openai_ingest_v0_2.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_openai_ingest_v0_2.py"
+    },
+    {
+      "name": "script_exists:proofloop_openai_validate_v0_3_1.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_openai_validate_v0_3_1.py"
+    },
+    {
+      "name": "script_exists:proofloop_jsonl_to_csv_v0_4_1.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_jsonl_to_csv_v0_4_1.py"
+    },
+    {
+      "name": "script_exists:proofloop_jsonl_to_sqlite_v0_5_1.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_jsonl_to_sqlite_v0_5_1.py"
+    },
+    {
+      "name": "script_exists:proofloop_sqlite_validate_v0_6.py",
+      "passed": true,
+      "detail": "C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\proofloop_sqlite_validate_v0_6.py"
+    },
+    {
+      "name": "syntax:proofloop_openai_ingest_v0_1.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "syntax:proofloop_openai_ingest_v0_2.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "syntax:proofloop_openai_validate_v0_3_1.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "syntax:proofloop_jsonl_to_csv_v0_4_1.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "syntax:proofloop_jsonl_to_sqlite_v0_5_1.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "syntax:proofloop_sqlite_validate_v0_6.py",
+      "passed": true,
+      "detail": "Python syntax compiled successfully."
+    },
+    {
+      "name": "source_zip_readable",
+      "passed": true,
+      "detail": "Found 1 HTML file(s): ['OpenAICareers.html']"
+    },
+    {
+      "name": "source_zip_has_html",
+      "passed": true,
+      "detail": "HTML entries: ['OpenAICareers.html']"
+    },
+    {
+      "name": "jsonl_loads",
+      "passed": true,
+      "detail": "Loaded 817 JSON objects."
+    },
+    {
+      "name": "jsonl_expected_count",
+      "passed": true,
+      "detail": "Found 817; expected 817."
+    },
+    {
+      "name": "jsonl_fields_exact",
+      "passed": true,
+      "detail": "Every JSONL record uses the expected ordered field set."
+    },
+    {
+      "name": "csv_loads",
+      "passed": true,
+      "detail": "Loaded 817 CSV rows."
+    },
+    {
+      "name": "csv_header_matches",
+      "passed": true,
+      "detail": "CSV header: ('role_id', 'title', 'team', 'display_location', 'career_url', 'apply_url')"
+    },
+    {
+      "name": "csv_expected_count",
+      "passed": true,
+      "detail": "Found 817; expected 817."
+    },
+    {
+      "name": "csv_matches_jsonl_row_for_row",
+      "passed": true,
+      "detail": "CSV and JSONL match row-for-row."
+    },
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "detail": "PRAGMA integrity_check returned 'ok'."
+    },
+    {
+      "name": "sqlite_expected_count",
+      "passed": true,
+      "detail": "Found 817; expected 817."
+    },
+    {
+      "name": "sqlite_matches_jsonl_row_for_row",
+      "passed": true,
+      "detail": "SQLite and JSONL match row-for-row."
+    },
+    {
+      "name": "existing_db_report_passes",
+      "passed": true,
+      "detail": "Summary: {'checks': 22, 'passed': 22, 'failed': 0, 'result': 'PASS'}"
+    },
+    {
+      "name": "existing_db_report_count_matches",
+      "passed": true,
+      "detail": "Report row_count=817"
+    },
+    {
+      "name": "v0_1_source_ingest_passes",
+      "passed": true,
+      "detail": "exit=0; stdout=ProofLoop OpenAI Careers Ingestor v0.1\nSource ZIP:       C:\\Users\\psychoGanon\\Desktop\\BuilidingMyWayIntoAI\\Day1\\OpenAI Careers.zip\nHTML file:        OpenAICareers.html\nParsed roles:     817\nExpected roles:   817  [PASS]\nValidation issues:     0"
+    },
+    {
+      "name": "v0_2_source_ingest_passes",
+      "passed": true,
+      "detail": "exit=0; output exists=True"
+    },
+    {
+      "name": "v0_2_regenerates_jsonl_semantically",
+      "passed": true,
+      "detail": "Regenerated JSONL matches canonical JSONL row-for-row."
+    },
+    {
+      "name": "v0_2_regenerates_jsonl_byte_for_byte",
+      "passed": true,
+      "detail": "Regenerated JSONL is byte-for-byte identical."
+    },
+    {
+      "name": "v0_3_1_validator_accepts_good_jsonl",
+      "passed": true,
+      "detail": "exit=0"
+    },
+    {
+      "name": "v0_3_1_validator_rejects_wrong_expected_count",
+      "passed": true,
+      "detail": "exit=1"
+    },
+    {
+      "name": "v0_4_1_csv_export_passes",
+      "passed": true,
+      "detail": "exit=0; output exists=True"
+    },
+    {
+      "name": "v0_4_1_regenerates_csv_semantically",
+      "passed": true,
+      "detail": "Regenerated CSV matches canonical CSV row-for-row."
+    },
+    {
+      "name": "v0_4_1_converter_rejects_wrong_expected_count",
+      "passed": true,
+      "detail": "exit=1"
+    },
+    {
+      "name": "v0_5_1_sqlite_import_passes",
+      "passed": true,
+      "detail": "exit=0; output exists=True"
+    },
+    {
+      "name": "v0_5_1_regenerates_sqlite_data",
+      "passed": true,
+      "detail": "Regenerated SQLite matches JSONL row-for-row."
+    },
+    {
+      "name": "v0_5_1_regenerates_sqlite_schema",
+      "passed": true,
+      "detail": "Regenerated SQLite schema matches canonical database."
+    },
+    {
+      "name": "v0_6_validator_passes_regenerated_database",
+      "passed": true,
+      "detail": "exit=0; report exists=True"
+    },
+    {
+      "name": "v0_6_report_all_checks_pass",
+      "passed": true,
+      "detail": "Fresh summary: {'checks': 22, 'passed': 22, 'failed': 0, 'result': 'PASS'}"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "validator": "ProofLoop SQLite Validator v0.6",
+  "generated_at_utc": "2026-10-08T02:35:29.438957+00:00",
+  "database": "proofloop.db",
+  "jsonl_source": "openai_roles.jsonl",
+  "expected_rows": 817,
+  "metrics": {
+    "row_count": 817
+  },
+  "summary": {
+    "checks": 22,
+    "passed": 22,
+    "failed": 0,
+    "result": "PASS"
+  },
+  "checks": [
+    {
+      "name": "sqlite_integrity_check",
+      "passed": true,
+      "detail": "PRAGMA integrity_check returned 'ok'."
+    },
+    {
+      "name": "roles_table_exists",
+      "passed": true,
+      "detail": "roles table exists."
+    },
+    {
+      "name": "schema_matches",
+      "passed": true,
+      "detail": "Actual schema: [('role_id', 'INTEGER', 0, 1), ('title', 'TEXT', 1, 0), ('team', 'TEXT', 1, 0), ('display_location', 'TEXT', 1, 0), ('career_url', 'TEXT', 1, 0), ('apply_url', 'TEXT', 1, 0)]"
+    },
+    {
+      "name": "career_url_unique_constraint",
+      "passed": true,
+      "detail": "Unique indexes: {'sqlite_autoindex_roles_2': {'columns': ['apply_url'], 'origin': 'u'}, 'sqlite_autoindex_roles_1': {'columns': ['career_url'], 'origin': 'u'}}"
+    },
+    {
+      "name": "apply_url_unique_constraint",
+      "passed": true,
+      "detail": "Unique indexes: {'sqlite_autoindex_roles_2': {'columns': ['apply_url'], 'origin': 'u'}, 'sqlite_autoindex_roles_1': {'columns': ['career_url'], 'origin': 'u'}}"
+    },
+    {
+      "name": "expected_row_count",
+      "passed": true,
+      "detail": "Database has 817 rows; expected 817."
+    },
+    {
+      "name": "role_ids_sequential",
+      "passed": true,
+      "detail": "role_id values are sequential 1..817."
+    },
+    {
+      "name": "title_not_blank",
+      "passed": true,
+      "detail": "0 NULL/blank value(s) found in title."
+    },
+    {
+      "name": "team_not_blank",
+      "passed": true,
+      "detail": "0 NULL/blank value(s) found in team."
+    },
+    {
+      "name": "display_location_not_blank",
+      "passed": true,
+      "detail": "0 NULL/blank value(s) found in display_location."
+    },
+    {
+      "name": "career_url_not_blank",
+      "passed": true,
+      "detail": "0 NULL/blank value(s) found in career_url."
+    },
+    {
+      "name": "apply_url_not_blank",
+      "passed": true,
+      "detail": "0 NULL/blank value(s) found in apply_url."
+    },
+    {
+      "name": "career_url_values_unique",
+      "passed": true,
+      "detail": "0 duplicate career_url group(s)."
+    },
+    {
+      "name": "apply_url_values_unique",
+      "passed": true,
+      "detail": "0 duplicate apply_url group(s)."
+    },
+    {
+      "name": "career_url_shape",
+      "passed": true,
+      "detail": "0 unexpected career_url value(s)."
+    },
+    {
+      "name": "apply_url_shape",
+      "passed": true,
+      "detail": "0 unexpected apply_url value(s)."
+    },
+    {
+      "name": "jsonl_row_count_matches_database",
+      "passed": true,
+      "detail": "JSONL=817 records; SQLite=817 rows."
+    },
+    {
+      "name": "jsonl_matches_database_row_for_row",
+      "passed": true,
+      "detail": "Every JSONL record matches its SQLite row."
+    },
+    {
+      "name": "reject_duplicate_primary_key",
+      "passed": true,
+      "detail": "Rejected as expected (UNIQUE constraint failed: roles.role_id); row count remained 817."
+    },
+    {
+      "name": "reject_duplicate_career_url",
+      "passed": true,
+      "detail": "Rejected as expected (UNIQUE constraint failed: roles.career_url); row count remained 817."
+    },
+    {
+      "name": "reject_duplicate_apply_url",
+      "passed": true,
+      "detail": "Rejected as expected (UNIQUE constraint failed: roles.apply_url); row count remained 817."
+    },
+    {
+      "name": "reject_null_required_field",
+      "passed": true,
+      "detail": "Rejected as expected (NOT NULL constraint failed: roles.title); row count remained 817."
+    }
+  ]
+}

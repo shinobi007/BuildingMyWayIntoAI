@@ -1,0 +1,39 @@
+OPENAI ROLE INVENTORY #001
+Source: OpenAI Careers Google Docs HTML export
+Roles extracted: 817
+Unique teams: 83
+Roles explicitly displaying Remote: 16
+
+Top teams by listing count:
+ 65  Applied AI Engineering
+ 63  Technical Success
+ 37  Sales
+ 37  Marketing
+ 34  Support Delivery
+ 33  Hardware
+ 30  Forward Deployed Engineering
+ 29  Finance
+ 26  Security
+ 24  Datacenter Design
+ 24  Compute
+ 21  Software
+ 20  Robotics
+ 18  Data Science
+ 16  Codex - Engineering
+ 16  OpenAI for Gov
+ 16  Trust & Safety
+ 14  Ads Solutions
+ 14  Applied AI
+ 13  Applied AI Infrastructure
+
+First 10 records:
+001. 3P Systems Architect | Datacenter Design | 2 locations | https://openai.com/careers/3p-systems-architect-san-francisco/
+002. Abuse Investigator - Scams & Fraud | Intelligence & Investigations | 4 locations | https://openai.com/careers/abuse-investigator-scams-and-fraud-us-remote/
+003. Account Associate - EMEA | Account Associates | Dublin, Ireland | https://openai.com/careers/account-associate-emea-dublin-ireland/
+004. Account Associate- EMEA (French Speaking) | Account Associates | Dublin, Ireland | https://openai.com/careers/account-associate-emea-(french-speaking)-dublin-ireland/
+005. Account Associate - EMEA (German Speaking) | Account Associates | Dublin, Ireland | https://openai.com/careers/account-associate-emea-(german-speaking)-dublin-ireland/
+006. Account Associate, Japan | Account Associates | Tokyo, Japan | https://openai.com/careers/account-associate-japan-tokyo-japan/
+007. Account Associate - SF | Account Associates | San Francisco | https://openai.com/careers/account-associate-sf-san-francisco/
+008. Account Associate - Singapore (ANZ Market) | Account Associates | Singapore | https://openai.com/careers/account-associate-singapore-(anz-market)-singapore/
+009. Account Associate - Singapore (Korean-speaking) | Account Associates | Singapore | https://openai.com/careers/account-associate-singapore-(korean-speaking)-singapore/
+010. Account Director, Commercial | Sales | New York City | https://openai.com/careers/account-director-commercial-new-york-city/
