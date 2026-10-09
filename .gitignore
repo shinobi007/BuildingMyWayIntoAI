@@ -1,0 +1,40 @@
+# Generated code/runtime/cache (project-wide)
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+**/*.pem
+**/*.key
+**/credentials.json
+**/id_rsa*
+
+# Large generated and duplicate archives; original local files remain unchanged
+**/runs/
+**/sample_*/
+**/portfolio_sprint_001/
+**/*.zip
+**/*.7z
+**/*.bak
+**/*.tmp
+**/*.db
+**/*.db-*
+**/*.sqlite3
+**/*.sqlite3-*
+**/ashby_snapshot*.json
+**/openai_ashby_snapshot*.json
+
+# Deliberately curated REAL databases (not synthetic job examples)
+!Day1/proofloop.db
+!Day1/FinalVersion/examples/openai_snapshot_25.sqlite3
+
+# CSV and JSONL are NOT excluded wholesale: early history and small source
+# examples may be valuable. Staging is intentional rather than 'git add .'.
+# Publish only curated source/data; audit staged paths for credentials.
