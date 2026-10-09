@@ -1,0 +1,200 @@
+{
+  "stage": "stage8_handoff_tests",
+  "program_version": "0.8.1",
+  "status": "PASS",
+  "tests_run": 47,
+  "passed": 47,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "test": "test_additive_proofloop_update_does_not_claim_proficiency",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_raises_nonblocking_review_flags",
+      "status": "PASS"
+    },
+    {
+      "test": "test_baseline_cross_stage_consistent",
+      "status": "PASS"
+    },
+    {
+      "test": "test_broken_json_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_candidate_evidence_not_reinterpreted_as_verified",
+      "status": "PASS"
+    },
+    {
+      "test": "test_candidate_profile_present_with_all_structured_evidence",
+      "status": "PASS"
+    },
+    {
+      "test": "test_cli_missing_input_failure",
+      "status": "PASS"
+    },
+    {
+      "test": "test_cli_success",
+      "status": "PASS"
+    },
+    {
+      "test": "test_data_traces_not_certificate",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database_connection_closed_on_query_error",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database_connection_closed_on_success",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database_description_tamper_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_direct_contact_and_social_links_redacted",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_coverage_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_evidence_id_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_stage5_role_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_forged_store_hash_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_full_original_description_in_source_jsonl",
+      "status": "PASS"
+    },
+    {
+      "test": "test_handoff_includes_every_report_stage_5_to_8",
+      "status": "PASS"
+    },
+    {
+      "test": "test_json_array_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_missing_private_evidence_keeps_output_absent",
+      "status": "PASS"
+    },
+    {
+      "test": "test_missing_stage7_manifest_hash_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_no_contact_info_or_extra_secret_in_handoff",
+      "status": "PASS"
+    },
+    {
+      "test": "test_no_final_five_in_manifest",
+      "status": "PASS"
+    },
+    {
+      "test": "test_optional_resume_source_included_with_provenance",
+      "status": "PASS"
+    },
+    {
+      "test": "test_original_inputs_not_modified",
+      "status": "PASS"
+    },
+    {
+      "test": "test_original_source_description_and_raw_preserved",
+      "status": "PASS"
+    },
+    {
+      "test": "test_original_title_whitespace_not_lost",
+      "status": "PASS"
+    },
+    {
+      "test": "test_output_no_overwrite",
+      "status": "PASS"
+    },
+    {
+      "test": "test_partial_failure_no_output_published",
+      "status": "PASS"
+    },
+    {
+      "test": "test_raw_db_record_tamper_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_resume_without_argument_not_included",
+      "status": "PASS"
+    },
+    {
+      "test": "test_run_publishes_full_archive_and_stage_reports",
+      "status": "PASS"
+    },
+    {
+      "test": "test_source_snapshot_duplicate_job_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage7_cannot_assert_top_five",
+      "status": "PASS"
+    },
+    {
+      "test": "test_store_failed_status_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_advanced_md_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_advanced_report_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_broad_report_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_coverage_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_deep_report_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_tampered_matrix_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_unverified_status_cannot_change",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation_failed_check_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation_incomplete_checks_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_wrong_snapshot_hash_refused",
+      "status": "PASS"
+    },
+    {
+      "test": "test_zip_integrity_and_file_hashes",
+      "status": "PASS"
+    }
+  ]
+}

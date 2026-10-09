@@ -1,0 +1,64 @@
+{
+  "stage": "independent_validation",
+  "status": "PASS",
+  "program_version": "0.4.0",
+  "generated_at_utc": "2026-10-09T05:38:32+00:00",
+  "checks": {
+    "normalization_report_status": true,
+    "store_report_status": true,
+    "normalization_report_hashes": true,
+    "store_report_hashes": true,
+    "report_run_identity": true,
+    "source_normalized_count": true,
+    "normalization_report_count": true,
+    "store_report_count": true,
+    "source_raw_exact_parsed": true,
+    "canonical_projection_exact": true,
+    "source_ordinal_exact": true,
+    "source_provenance_exact": true,
+    "source_unique_ids": true,
+    "sqlite_integrity": true,
+    "foreign_keys": true,
+    "required_tables": true,
+    "relational_row_counts": true,
+    "store_report_database_counts": true,
+    "build_metadata": true,
+    "db_source_raw_objects": true,
+    "db_canonical_objects": true,
+    "db_provenance": true,
+    "db_scalar_projection": true,
+    "db_all_child_rows": true
+  },
+  "passed": 24,
+  "failed": 0,
+  "diagnostics": [],
+  "diagnostics_truncated": false,
+  "files": {
+    "snapshot_sha256": "74e48a4cab6fabe9905403d4df91f86a700b148d253165b1507d58b28e8fab72",
+    "jsonl_sha256": "7314911915808975c5eabff35e5a8151f2c99f97c4b0c5d3c14976d59c0a1d31",
+    "sqlite_sha256": "abcfb60e1674a703a34c4e6613cc54552220bac32e313ca8baa13fa4ed447be3"
+  },
+  "details": {
+    "source_records": 816,
+    "normalized_records": 816,
+    "database_counts": {
+      "roles": 816,
+      "secondary_locations": 227,
+      "compensation_tiers": 667,
+      "compensation_components": 1346,
+      "compensation_summary_components": 1320
+    },
+    "expected_counts": {
+      "roles": 816,
+      "secondary_locations": 227,
+      "compensation_tiers": 667,
+      "compensation_components": 1346,
+      "compensation_summary_components": 1320
+    }
+  },
+  "limitations": [
+    "Verifies source-to-database data consistency, not current job availability or employer statements.",
+    "Source-to-canonical field checks cover the 18 known Ashby source fields; unknown source fields are preserved in raw JSON.",
+    "Does not assess candidate qualifications, location eligibility, or semantic truth of text."
+  ]
+}

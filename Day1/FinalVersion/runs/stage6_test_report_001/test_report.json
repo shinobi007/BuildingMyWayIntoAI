@@ -1,0 +1,133 @@
+{
+  "stage": "deep_analysis_tests",
+  "status": "PASS",
+  "program_version": "0.6.0",
+  "generated_utc": "2026-10-09T06:22:00.563273+00:00",
+  "tests_run": 30,
+  "passed": 30,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "broad_pool_disagreement_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "broad_role_title_disagreement_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "bullet_wrap_multiline",
+      "status": "PASS"
+    },
+    {
+      "name": "db_connection_closure_on_query_error",
+      "status": "PASS"
+    },
+    {
+      "name": "db_connection_closure_on_success",
+      "status": "PASS"
+    },
+    {
+      "name": "eight_years_not_satisfied",
+      "status": "PASS"
+    },
+    {
+      "name": "end_to_end_one_candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_professional_domains_only",
+      "status": "PASS"
+    },
+    {
+      "name": "failed_validation_report_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "incorrect_database_digest_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "main_input_failure",
+      "status": "PASS"
+    },
+    {
+      "name": "main_success",
+      "status": "PASS"
+    },
+    {
+      "name": "matching_is_only_topic_overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_candidate_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_work_history_dates_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "nice_to_have_does_not_change_prior",
+      "status": "PASS"
+    },
+    {
+      "name": "no_heading_is_unknown_not_zero",
+      "status": "PASS"
+    },
+    {
+      "name": "non_unique_evidence_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "numbered_list",
+      "status": "PASS"
+    },
+    {
+      "name": "qual_heading_variants",
+      "status": "PASS"
+    },
+    {
+      "name": "read_only_database_query",
+      "status": "PASS"
+    },
+    {
+      "name": "refuses_output_overwrite",
+      "status": "PASS"
+    },
+    {
+      "name": "remote_true_hybrid_flag",
+      "status": "PASS"
+    },
+    {
+      "name": "seniority_explicit_flag",
+      "status": "PASS"
+    },
+    {
+      "name": "stated_requirement_heading",
+      "status": "PASS"
+    },
+    {
+      "name": "stop_employer_boilerplate",
+      "status": "PASS"
+    },
+    {
+      "name": "truncated_requirement_cap",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown_evidence_tag_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported_evidence_status_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "untrusted_text_escaped",
+      "status": "PASS"
+    }
+  ]
+}

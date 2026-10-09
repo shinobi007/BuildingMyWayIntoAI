@@ -1,0 +1,105 @@
+{
+  "stage": "fetch_tests",
+  "status": "PASS",
+  "tests_run": 23,
+  "passed": 23,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "test": "__main__.Stage2Tests.test_bad_nested_data_rejected_by_stage1_contract",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_board_slug_rejects_injection",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_duplicate_ids_no_partial_output",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_empty_rejected_unless_acknowledged",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_failure_sidecar_contains_no_secrets",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_frozen_source_not_modified",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_400_does_not_retry",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_429_retries_then_succeeds",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_503_retries_then_succeeds",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_bad_content_type_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_compressed_payload_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_network_retry_exhaustion",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_redirect_outside_allowed_host_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_live_response_success",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_malformed_json_no_partial_output",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_maximum_response_size_enforced",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_missing_file_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_refuses_existing_destination_without_modifying",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_successful_offline_preserves_bytes_and_generates_reports",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_unknown_source_job_fields_preserved",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_url_build_with_compensation",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_url_build_without_compensation",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.Stage2Tests.test_wrong_expected_count_no_partial_output",
+      "status": "PASS"
+    }
+  ],
+  "program_version": "0.2.0",
+  "generated_at_utc": "2026-10-09T04:58:07+00:00"
+}

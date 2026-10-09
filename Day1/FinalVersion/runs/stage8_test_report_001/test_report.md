@@ -1,0 +1,44 @@
+# Stage 8 — Regression Tests
+
+**PASS** — 40/40 passed; 0 errors.
+
+- PASS: `test_audit_raises_nonblocking_review_flags`
+- PASS: `test_baseline_cross_stage_consistent`
+- PASS: `test_broken_json_refused`
+- PASS: `test_cli_missing_input_failure`
+- PASS: `test_cli_success`
+- PASS: `test_data_traces_not_certificate`
+- PASS: `test_database_connection_closed_on_query_error`
+- PASS: `test_database_connection_closed_on_success`
+- PASS: `test_database_description_tamper_detected`
+- PASS: `test_duplicate_coverage_detected`
+- PASS: `test_duplicate_stage5_role_detected`
+- PASS: `test_forged_store_hash_refused`
+- PASS: `test_full_original_description_in_source_jsonl`
+- PASS: `test_handoff_includes_every_report_stage_5_to_8`
+- PASS: `test_json_array_refused`
+- PASS: `test_missing_private_evidence_keeps_output_absent`
+- PASS: `test_missing_stage7_manifest_hash_refused`
+- PASS: `test_no_final_five_in_manifest`
+- PASS: `test_original_inputs_not_modified`
+- PASS: `test_original_source_description_and_raw_preserved`
+- PASS: `test_original_title_whitespace_not_lost`
+- PASS: `test_output_no_overwrite`
+- PASS: `test_partial_failure_no_output_published`
+- PASS: `test_private_profile_bytes_never_packaged`
+- PASS: `test_raw_db_record_tamper_detected`
+- PASS: `test_run_publishes_full_archive_and_stage_reports`
+- PASS: `test_source_snapshot_duplicate_job_rejected`
+- PASS: `test_stage7_cannot_assert_top_five`
+- PASS: `test_store_failed_status_refused`
+- PASS: `test_tampered_advanced_md_refused`
+- PASS: `test_tampered_advanced_report_refused`
+- PASS: `test_tampered_broad_report_refused`
+- PASS: `test_tampered_coverage_refused`
+- PASS: `test_tampered_deep_report_refused`
+- PASS: `test_tampered_matrix_refused`
+- PASS: `test_unverified_status_cannot_change`
+- PASS: `test_validation_failed_check_refused`
+- PASS: `test_validation_incomplete_checks_refused`
+- PASS: `test_wrong_snapshot_hash_refused`
+- PASS: `test_zip_integrity_and_file_hashes`

@@ -1,0 +1,80 @@
+{
+  "stage": "normalize_tests",
+  "status": "PASS",
+  "generated_at_utc": "2026-10-09T04:48:13+00:00",
+  "tests_run": 17,
+  "passed": 17,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "test": "__main__.NormalizationTests.test_bad_compensation_components_fail",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_bad_input_does_not_create_output",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_bad_remote_type_fails_not_coerced",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_bad_secondary_location_item_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_deterministic_canonical_jsonl",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_duplicate_ids_fail",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_empty_requires_explicit_acknowledgement",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_invalid_json_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_missing_jobs_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_non_https_url_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_reject_non_json_nan",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_required_blank_title_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_successful_publish_and_no_overwrite",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_unknown_fields_are_retained_and_reported",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_unknown_nested_compensation_preserved",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_valid_and_null_preservation",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.NormalizationTests.test_wrong_expected_count_fails",
+      "status": "PASS"
+    }
+  ]
+}

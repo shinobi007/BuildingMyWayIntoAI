@@ -1,0 +1,130 @@
+{
+  "stage": "independent_pre_ai_audit",
+  "version": "0.8.1",
+  "status": "PASS_WITH_REVIEW_FLAGS",
+  "generated_at_utc": "2026-10-09T07:23:23.144155+00:00",
+  "board": "openai",
+  "integrity_checks": {
+    "snapshot_raw_jobs_equal_database": true,
+    "database_integrity": true,
+    "cross_stage_fingerprints": true,
+    "cross_stage_population": true,
+    "all_source_descriptions_preserved": true,
+    "stage5_through_stage7_dossier_identity": true,
+    "stage7_revisit_identity": true,
+    "stage6_unverified_evidence_status": true
+  },
+  "counts": {
+    "source_postings": 816,
+    "stage5_evaluated": 816,
+    "stage6_dossiers": 100,
+    "outside_dossiers": 716,
+    "stage7_revisit_flags": 175,
+    "stage6_extracted_requirements": 789,
+    "stage7_review_lines": 879,
+    "stage7_original_missing_sections_recovered": 13,
+    "embedded_heading_artifacts": 3
+  },
+  "review_flags": [
+    {
+      "code": "OUTSIDE_100_REVISIT",
+      "count": 175,
+      "priority": "HIGH",
+      "reason": "Heuristic recall leads—not qualified recommendations"
+    },
+    {
+      "code": "EMBEDDED_HEADING_ARTIFACTS",
+      "count": 3,
+      "priority": "HIGH",
+      "reason": "Requirement extraction may include a subsequent heading"
+    },
+    {
+      "code": "EXTRACTION_COMPLETENESS_UNVERIFIED",
+      "count": 816,
+      "priority": "REVIEW",
+      "reason": "Recognized headings are not assurance that all requirements were extracted"
+    },
+    {
+      "code": "UNVERIFIED_CANDIDATE_EVIDENCE",
+      "count": 100,
+      "priority": "HIGH",
+      "reason": "Candidate résumé evidence is included without contact details, but claims remain provisional and require user confirmation"
+    },
+    {
+      "code": "EXPERIENCE_DURATION_UNKNOWN",
+      "count": 44,
+      "priority": "REVIEW",
+      "reason": "Number of years in job descriptions is not years established for candidate"
+    },
+    {
+      "code": "RELOCATION_FUNDING_UNKNOWN",
+      "count": 30,
+      "priority": "REVIEW",
+      "reason": "No demonstrated relocation funding for these roles"
+    },
+    {
+      "code": "REMOTE_METADATA_AMBIGUITY",
+      "count": 56,
+      "priority": "REVIEW",
+      "reason": "isRemote=true can coexist with hybrid attendance"
+    },
+    {
+      "code": "STAGE7_DOC_STALE_EXAMPLE",
+      "count": 1,
+      "priority": "REVIEW",
+      "reason": "Stage 7 README example states 826 lines; actual run reports 879. Use the reports as authoritative, update docs."
+    },
+    {
+      "code": "POSTING_AVAILABILITY_NOT_REFRESHED",
+      "count": 816,
+      "priority": "HIGH",
+      "reason": "Source is a time-stamped snapshot, not real-time confirmation"
+    },
+    {
+      "code": "ZERO_MISSING_DOES_NOT_MEAN_ZERO_EXTRACTION_RISK",
+      "count": 3,
+      "priority": "REVIEW",
+      "reason": "Zero missing headings coexists with embedded heading issues"
+    }
+  ],
+  "constraints": {
+    "final_five_selected": false,
+    "qualifications_certified": false,
+    "location_eligibility_certified": false,
+    "current_posting_availability_confirmed": false,
+    "candidate_evidence_included": true,
+    "contact_sanitized": true,
+    "raw_private_profile_included": false,
+    "redacted_resume_claims_included": true,
+    "AI_may_challenge_all_classifications": true
+  },
+  "candidate_evidence_export": {
+    "record_count": 10,
+    "original_profile_sha256": "9b01ae9630c4fe4b60d3364f612cf8bd6c8027c03cd41f69e083eef7ea9f0a7d",
+    "excluded_extra_fields": 0,
+    "redacted_contact_matches": 0
+  },
+  "input_sha256": {
+    "snapshot": "74e48a4cab6fabe9905403d4df91f86a700b148d253165b1507d58b28e8fab72",
+    "db": "abcfb60e1674a703a34c4e6613cc54552220bac32e313ca8baa13fa4ed447be3",
+    "store": "d09d9e7b478e7d745bc356bbfb9e564d444769177a4cffbb29270c69719fa6bf",
+    "validation": "cf0a49381acde6cc3cd77c8ccddf5f9ab8924f0039538e1642668e30fdeb6809",
+    "broad": "09145dbdea4ac9a64c211ebfb62e96fad8f18b18708708fe9afedb726550df70",
+    "candidates": "1fa8828ae97a90ca70a72bbe7aac9304af39247eb1d03c25cae367e77308fc50",
+    "deep": "0412dae16178bda7f467008a0dbc7f63f0bc2abb0a52c438b74f2346af54766e",
+    "deep_summary": "92f882a1f7b4746ef74d3aabd5f576faef6477e63d574057464033f02ffa83f9",
+    "advanced": "0a30046ae02b32fcf8c97fb2bcb2c19f1abb207c7e0f29157b638e80e2520549",
+    "coverage": "475d544122137a7f78b2ece8bf927576920b51121b163954e83dafdd53c7582a",
+    "comparison": "67c814069970fa7b99d2c795364419cfc5d3b899cbbd116878314e1565ed7d44",
+    "stage7_manifest": "7b4a4770b4fa1321b17290d4b0dff31225742d37faa67ef38a46d4dc84e75c41",
+    "evidence": "9b01ae9630c4fe4b60d3364f612cf8bd6c8027c03cd41f69e083eef7ea9f0a7d",
+    "broad_md": "b93c40bf2dfe27e5b3d7c6a4b48c88d9c82ad9f1024569a5bc33d8ecb151d888",
+    "deep_md": "23d15a6e9ecbaf83395040c44b225b9362d8bf9579685095eaf8af0c803c4041",
+    "advanced_md": "55286d97ac2ba19691879bfd125edd8feed06b3ff77fce993abe7dc3ab3284e0"
+  },
+  "known_limits": [
+    "Structural independence does not establish semantic correctness of every extracted requirement",
+    "Snapshot reflects one historical fetch; recheck job status when applying",
+    "Contact-sanitized candidate evidence is present but remains unverified; cross-check with the user before relying on claims"
+  ]
+}

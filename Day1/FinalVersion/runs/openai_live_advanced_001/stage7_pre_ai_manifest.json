@@ -1,0 +1,49 @@
+{
+  "stage": "stage7_pre_ai_manifest",
+  "status": "PASS",
+  "source_snapshot_sha256": "74e48a4cab6fabe9905403d4df91f86a700b148d253165b1507d58b28e8fab72",
+  "db_sha256": "abcfb60e1674a703a34c4e6613cc54552220bac32e313ca8baa13fa4ed447be3",
+  "board": "openai",
+  "private_evidence_status": "UNVERIFIED_RESUME_CLAIMS",
+  "prior_report_fingerprints": {
+    "db_sha256": "abcfb60e1674a703a34c4e6613cc54552220bac32e313ca8baa13fa4ed447be3",
+    "store_sha256": "d09d9e7b478e7d745bc356bbfb9e564d444769177a4cffbb29270c69719fa6bf",
+    "validation_sha256": "cf0a49381acde6cc3cd77c8ccddf5f9ab8924f0039538e1642668e30fdeb6809",
+    "broad_sha256": "09145dbdea4ac9a64c211ebfb62e96fad8f18b18708708fe9afedb726550df70",
+    "candidates_sha256": "1fa8828ae97a90ca70a72bbe7aac9304af39247eb1d03c25cae367e77308fc50",
+    "deep_sha256": "0412dae16178bda7f467008a0dbc7f63f0bc2abb0a52c438b74f2346af54766e",
+    "deep_summary_sha256": "92f882a1f7b4746ef74d3aabd5f576faef6477e63d574057464033f02ffa83f9",
+    "evidence_sha256": "9b01ae9630c4fe4b60d3364f612cf8bd6c8027c03cd41f69e083eef7ea9f0a7d",
+    "source_snapshot_sha256": "74e48a4cab6fabe9905403d4df91f86a700b148d253165b1507d58b28e8fab72"
+  },
+  "stage8_expected_materials": [
+    "Stage 5 broad_analysis_report.json",
+    "Stage 5 deep_review_candidates.json",
+    "Stage 6 deep_analysis_report.json",
+    "Stage 6 deep_review_summary.json",
+    "Stage 7 advanced_analysis_report.json",
+    "Stage 7 coverage_audit.json",
+    "Stage 7 comparison_matrix.json",
+    "Stage 7 stage7_pre_ai_manifest.json",
+    "Stage 8 independent audit report",
+    "ALL 816 ORIGINAL DATABASE JOB DESCRIPTIONS WITH IDS",
+    "Optional user-approved private candidate evidence, expressly labeled unverified"
+  ],
+  "no_ai_selection_yet": true,
+  "ai_may_disagree_with_all_heuristic_groups": true,
+  "checklist": [
+    "Audit all 816 roles",
+    "Confirm qualifications and private profile",
+    "Review 13 original Stage 6 extraction gaps and Stage 7 outcomes",
+    "Recheck current job posting status",
+    "Do not conflate remote metadata with Utah remote eligibility",
+    "Separate role fit from relocation",
+    "Human reviews five targets before applying"
+  ],
+  "stage7_outputs_sha256": {
+    "advanced_analysis_report.json": "0a30046ae02b32fcf8c97fb2bcb2c19f1abb207c7e0f29157b638e80e2520549",
+    "coverage_audit.json": "475d544122137a7f78b2ece8bf927576920b51121b163954e83dafdd53c7582a",
+    "comparison_matrix.json": "67c814069970fa7b99d2c795364419cfc5d3b899cbbd116878314e1565ed7d44",
+    "advanced_analysis_report.md": "55286d97ac2ba19691879bfd125edd8feed06b3ff77fce993abe7dc3ab3284e0"
+  }
+}

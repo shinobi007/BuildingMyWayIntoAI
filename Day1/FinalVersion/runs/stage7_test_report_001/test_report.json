@@ -1,0 +1,173 @@
+{
+  "stage": "advanced_analysis_tests",
+  "program_version": "0.7.0",
+  "generated_utc": "2026-10-09T06:47:06.004916+00:00",
+  "status": "PASS",
+  "tests_run": 40,
+  "passed": 40,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "test": "test_all_816_analogue_audited",
+      "status": "PASS"
+    },
+    {
+      "test": "test_bad_store_hash_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_bad_validation_report_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_baseline",
+      "status": "PASS"
+    },
+    {
+      "test": "test_boilerplate_not_extracted",
+      "status": "PASS"
+    },
+    {
+      "test": "test_broad_report_modified_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_cli_failure_no_publication",
+      "status": "PASS"
+    },
+    {
+      "test": "test_cli_success",
+      "status": "PASS"
+    },
+    {
+      "test": "test_corrupted_sqlite_hash_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_current_project_not_work_history",
+      "status": "PASS"
+    },
+    {
+      "test": "test_degree_unverified",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_broad_id_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_embedded_heading_detected_without_silent_change",
+      "status": "PASS"
+    },
+    {
+      "test": "test_evidence_changes_invalidate_report",
+      "status": "PASS"
+    },
+    {
+      "test": "test_lack_of_extraction_is_not_zero_requirements",
+      "status": "PASS"
+    },
+    {
+      "test": "test_markdown_untrusted_titles_escaped",
+      "status": "PASS"
+    },
+    {
+      "test": "test_missed_support_role_recovered_to_revisit",
+      "status": "PASS"
+    },
+    {
+      "test": "test_missing_input_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_no_output_on_failed_validation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_no_overwrite",
+      "status": "PASS"
+    },
+    {
+      "test": "test_no_unsupported_qualification_scoring",
+      "status": "PASS"
+    },
+    {
+      "test": "test_output_report_and_hash_manifest",
+      "status": "PASS"
+    },
+    {
+      "test": "test_preference_preserved",
+      "status": "PASS"
+    },
+    {
+      "test": "test_previously_missed_headings",
+      "status": "PASS"
+    },
+    {
+      "test": "test_private_evidence_not_copied_to_report",
+      "status": "PASS"
+    },
+    {
+      "test": "test_read_only_db",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sales_primary_not_rescued",
+      "status": "PASS"
+    },
+    {
+      "test": "test_security_clearance_flag",
+      "status": "PASS"
+    },
+    {
+      "test": "test_semicolon_compound_split_without_claims",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sqlite_connection_closed_on_error",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sqlite_connection_closed_on_success",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage5_pool_tamper_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage6_count_tamper_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage6_not_overwritten_by_supplement",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage6_role_title_tamper_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_stage6_summary_tamper_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_supplement_fills_missing_stage6",
+      "status": "PASS"
+    },
+    {
+      "test": "test_us_remote_not_certified",
+      "status": "PASS"
+    },
+    {
+      "test": "test_work_claim_does_not_prove_skill",
+      "status": "PASS"
+    },
+    {
+      "test": "test_years_never_satisfied",
+      "status": "PASS"
+    }
+  ]
+}

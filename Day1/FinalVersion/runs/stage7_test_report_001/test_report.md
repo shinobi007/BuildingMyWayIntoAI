@@ -1,0 +1,44 @@
+# ProofLoop Stage 7 — Regression Tests
+
+**PASS** — 40/40 passed; 0 errors; 0 failures.
+
+- PASS: `test_all_816_analogue_audited`
+- PASS: `test_bad_store_hash_rejected`
+- PASS: `test_bad_validation_report_rejected`
+- PASS: `test_baseline`
+- PASS: `test_boilerplate_not_extracted`
+- PASS: `test_broad_report_modified_rejected`
+- PASS: `test_cli_failure_no_publication`
+- PASS: `test_cli_success`
+- PASS: `test_corrupted_sqlite_hash_rejected`
+- PASS: `test_current_project_not_work_history`
+- PASS: `test_degree_unverified`
+- PASS: `test_duplicate_broad_id_rejected`
+- PASS: `test_embedded_heading_detected_without_silent_change`
+- PASS: `test_evidence_changes_invalidate_report`
+- PASS: `test_lack_of_extraction_is_not_zero_requirements`
+- PASS: `test_markdown_untrusted_titles_escaped`
+- PASS: `test_missed_support_role_recovered_to_revisit`
+- PASS: `test_missing_input_rejected`
+- PASS: `test_no_output_on_failed_validation`
+- PASS: `test_no_overwrite`
+- PASS: `test_no_unsupported_qualification_scoring`
+- PASS: `test_output_report_and_hash_manifest`
+- PASS: `test_preference_preserved`
+- PASS: `test_previously_missed_headings`
+- PASS: `test_private_evidence_not_copied_to_report`
+- PASS: `test_read_only_db`
+- PASS: `test_sales_primary_not_rescued`
+- PASS: `test_security_clearance_flag`
+- PASS: `test_semicolon_compound_split_without_claims`
+- PASS: `test_sqlite_connection_closed_on_error`
+- PASS: `test_sqlite_connection_closed_on_success`
+- PASS: `test_stage5_pool_tamper_rejected`
+- PASS: `test_stage6_count_tamper_rejected`
+- PASS: `test_stage6_not_overwritten_by_supplement`
+- PASS: `test_stage6_role_title_tamper_rejected`
+- PASS: `test_stage6_summary_tamper_rejected`
+- PASS: `test_supplement_fills_missing_stage6`
+- PASS: `test_us_remote_not_certified`
+- PASS: `test_work_claim_does_not_prove_skill`
+- PASS: `test_years_never_satisfied`

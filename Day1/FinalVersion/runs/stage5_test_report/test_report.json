@@ -1,0 +1,108 @@
+{
+  "stage": "broad_analysis_tests",
+  "status": "PASS",
+  "generated_at_utc": "2026-10-09T06:05:24.332306+00:00",
+  "tests_run": 24,
+  "passed": 24,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "test": "test_choose_review_unique_and_bounded",
+      "status": "PASS"
+    },
+    {
+      "test": "test_commissioning_not_sales",
+      "status": "PASS"
+    },
+    {
+      "test": "test_corrupted_database_hash_blocks_run",
+      "status": "PASS"
+    },
+    {
+      "test": "test_employer_boilerplate_ignored",
+      "status": "PASS"
+    },
+    {
+      "test": "test_full_run",
+      "status": "PASS"
+    },
+    {
+      "test": "test_hybrid_true_not_remote_eligible",
+      "status": "PASS"
+    },
+    {
+      "test": "test_input_failure_no_output",
+      "status": "PASS"
+    },
+    {
+      "test": "test_invalid_validation_report_blocks_run",
+      "status": "PASS"
+    },
+    {
+      "test": "test_markdown_escapes_untrusted_titles",
+      "status": "PASS"
+    },
+    {
+      "test": "test_missing_qualifications_not_zero_requirements",
+      "status": "PASS"
+    },
+    {
+      "test": "test_negated_relocation_is_not_a_positive_offer",
+      "status": "PASS"
+    },
+    {
+      "test": "test_non_us_profile_hold",
+      "status": "PASS"
+    },
+    {
+      "test": "test_null_remote_remains_unknown",
+      "status": "PASS"
+    },
+    {
+      "test": "test_profile_contract",
+      "status": "PASS"
+    },
+    {
+      "test": "test_profile_rejects_bad_boolean",
+      "status": "PASS"
+    },
+    {
+      "test": "test_profile_rejects_unknown_domain",
+      "status": "PASS"
+    },
+    {
+      "test": "test_relocation_detection",
+      "status": "PASS"
+    },
+    {
+      "test": "test_remote_city_requires_confirmation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_remote_us_location_advertised",
+      "status": "PASS"
+    },
+    {
+      "test": "test_run_no_overwrite",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sales_quota_exclusion",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sales_team_exclusion",
+      "status": "PASS"
+    },
+    {
+      "test": "test_sqlite_handle_closes_even_on_error",
+      "status": "PASS"
+    },
+    {
+      "test": "test_year_evidence_does_not_claim_match",
+      "status": "PASS"
+    }
+  ]
+}
