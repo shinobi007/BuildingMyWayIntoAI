@@ -1,0 +1,3 @@
+decision_id,recorded_at,scope,decision,alternatives_considered,evidence_or_reason,status,notes
+DEC001,,project,Preserve physical Day1 directory,Renaming to Attempt1 risks breaking saved scripts and paths,User decision after review,ACTIVE,Current documentation calls first case Attempt 001 and physical folder Day1
+DEC002,,project,Place one Git repository at journey root,Per-attempt repositories fragment evidence over time,Full multi-attempt blueprint,PLANNED,No Git move yet confirmed

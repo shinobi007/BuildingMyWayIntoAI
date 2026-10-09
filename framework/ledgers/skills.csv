@@ -1,0 +1,6 @@
+skill,current_evidence_state,example_evidence,assessed_at,limitations
+Python,TESTED,Day1/FinalVersion/test_proofloop_normalize.py,,AI-assisted project code and tests do not prove independent production fluency
+SQLite / SQL,APPLIED,Day1/proofloop.db; Day1/FinalVersion/proofloop_store.py,,Two distinct database generations
+API integration,APPLIED,Day1/FinalVersion/proofloop_fetch.py,,Real API project not large-scale backend service ownership
+Technical documentation,DOCUMENTED,Day1/FinalVersion/docs/architecture.md,,Authorship includes AI assistance
+AI evaluation,DOCUMENTED,Day1/FinalVersion/docs/stage9_initial_ai_prompt.md,,Human AI review not automated evaluation harness

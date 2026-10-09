@@ -1,0 +1,6 @@
+proof_id,target_id,requirement_id,evidence_id,link_state,missing_ability_or_evidence,limitation
+PG001,001-A,REQ001,EV001,TRANSFERABLE_NOT_SUFFICIENT,missing_evidence,IT support overlap is not established Jamf or Intune mastery
+PG002,001-B,REQ002,EV002,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverified,API integration does not prove production SRE incident ownership
+PG003,001-C,REQ003,EV003,NOT_SATISFIED,missing_ability_or_tenure,Project tests do not fill eight years of professional experience
+PG004,001-D,REQ004,EV004,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverified,Provenance coding is not vendor-security assessment
+PG005,001-E,REQ005,EV005,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverified,Documentation is not senior security program leadership

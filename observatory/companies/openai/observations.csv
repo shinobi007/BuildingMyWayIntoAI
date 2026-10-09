@@ -1,0 +1,4 @@
+observation_id,statement,evidence_state,source_id,limitation
+OBS001,Original HTML-based SQLite experiment has 817 role rows,DOCUMENTED,SRC001,Distinct collection from Ashby API snapshot
+OBS002,Later API source snapshot has 816 job records,DOCUMENTED,SRC002,Historical not necessarily current
+OBS003,isRemote metadata can coexist with required hybrid office attendance,DOCUMENTED,SRC003,Not proof that working from Utah is permissible

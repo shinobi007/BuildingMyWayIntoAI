@@ -1,0 +1,10 @@
+source_id,source_name,local_path_or_url,source_type,observed_date,limits
+SRC001,Original HTML-derived roles,Day1/proofloop.db,historical local SQLite,,817-role original independent HTML experiment
+SRC002,Ashby API snapshot,Day1/FinalVersion/runs/openai_live_fetch_001/raw/ashby_snapshot.json,historical API data,,816-role frozen record set
+SRC003,Stage8 AI handoff,Day1/FinalVersion/runs/openai_live_pre_ai_handoff_002/ai_handoff_bundle.zip,derived evidence archive,,Historical source plus analysis not a current listing
+SRC004,OpenAI official careers,https://openai.com/careers/,live career website,,Check current status directly at application time
+SRC005,IT Support Specialist,https://jobs.ashbyhq.com/openai/49ae54dc-3d33-4107-8112-63fac1ee86ca,employer posting,,Current availability not verified in this scaffold
+SRC006,Dedicated Support Engineer,https://jobs.ashbyhq.com/openai/2348230a-295f-434d-9b16-653e01ddbd0b,employer posting,,Hybrid and full qualification expectations need verification
+SRC007,AI Support Engineer,https://jobs.ashbyhq.com/openai/1a979fd4-1bce-484e-a416-aed2810677a6,employer posting,,Eight-plus-year requirement from historical original
+SRC008,Vendor Security Technical Program Manager,https://jobs.ashbyhq.com/openai/3ae71c21-60dd-42b2-a913-58df05988976,employer posting,,Remote-Utah eligibility not verified
+SRC009,Security Program Manager,https://jobs.ashbyhq.com/openai/6fd50ace-941b-4559-992f-e53f9b76c9a0,employer posting,,Remote-Utah eligibility not verified

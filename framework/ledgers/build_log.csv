@@ -1,0 +1,5 @@
+entry_id,date_recorded,attempt_id,work_item,artifact_path,verification,notes
+BL001,,001,Original HTML ingestion and 817-role prototype,Day1/proofloop.db,Pre-Git source data / schema,RETROSPECTIVE summary no invented creation date
+BL002,,001,Eight-stage 816-role Ashby pipeline,Day1/FinalVersion/README.md,231 passing stage regression tests reported,RETROSPECTIVE summary tests not rerun by a fresh clone
+BL003,,001,Read-only SQLite Role Explorer,Day1/FinalVersion/app/proofloop_explorer.py,19 explorer tests reported locally,RETROSPECTIVE summary not publicly hosted
+BL004,,001,Overall framework/Git preparation,docs/GIT_AND_HISTORY.md,Pending Git events,No actual Git commits recorded yet

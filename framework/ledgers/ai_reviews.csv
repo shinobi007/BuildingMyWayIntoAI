@@ -1,0 +1,2 @@
+review_id,attempt_id,stage,input_artifact,prompt_or_instruction,output_or_summary,review_status,human_validation,limitations
+AI001,001,Stage9_initial,Day1/FinalVersion/runs/openai_live_pre_ai_handoff_002/ai_handoff_bundle.zip,Day1/FinalVersion/docs/stage9_initial_ai_prompt.md,Independent initial AI review,COMPLETED,Discussion review no employer endorsement,Frozen postings and résumé evidence; not a hiring decision

@@ -1,0 +1,7 @@
+evidence_id,evidence_kind,source_path_or_reference,claimed_capability,evidence_state,limitations
+EV001,resume_claim,Day1/FinalVersion/candidate_resume_claims.public.md,SaaS and IT support experience,REPORTED,Self-reported professional history
+EV002,source_code,Day1/FinalVersion/proofloop_fetch.py,Ashby API integration and provenance,APPLIED,AI-assisted project not enterprise production experience
+EV003,test,Day1/FinalVersion/test_proofloop_store.py,SQLite pipeline validation,TESTED,Local tests not a formal job qualification
+EV004,source_code,Day1/FinalVersion/proofloop_handoff.py,Source traceability and evidence packaging,TESTED,Not vendor security expertise
+EV005,documentation,Day1/FinalVersion/docs/development_log.md,Planning and documentation,DOCUMENTED,Not proof of senior security program management
+EV006,database,Day1/proofloop.db,Original 817-role HTML prototype,APPLIED,Distinct historic dataset from API snapshot

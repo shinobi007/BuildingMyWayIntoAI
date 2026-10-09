@@ -1,0 +1,4 @@
+relationship_id,subject,relation,object,evidence_state,source_id,limitation
+REL001,OpenAI,published_posting,001-A,DOCUMENTED,SRC005,Historical posting URL
+REL002,001-C,requires,REQ003,DOCUMENTED,SRC007,Original language needs fresh review before submission
+REL003,EV003,supports_work,ProofLoop SQLite testing,DOCUMENTED,SRC003,Not equivalent to eight years professional engineering

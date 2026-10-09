@@ -1,0 +1,6 @@
+requirement_id,target_id,requirement_summary,requirement_type,source_id,source_excerpt_or_location,interpretation_status,limitation
+REQ001,001-A,Mac administration and enterprise device management,required,SRC005,Employer original job qualifications,REVIEW,Resume does not document Jamf or Intune depth
+REQ002,001-B,Production incident debugging and observability,required,SRC006,Employer original job qualifications,REVIEW,Professional enterprise production ownership not established
+REQ003,001-C,8+ years in relevant support or engineering roles,required,SRC007,Employer original job qualifications,DOCUMENTED,Resume does not establish full stated duration
+REQ004,001-D,Vendor security assessments and frameworks,required,SRC008,Employer original job qualifications,REVIEW,Specialized program ownership unestablished
+REQ005,001-E,Cross-functional security program leadership,required,SRC009,Employer original job qualifications,REVIEW,Specialized leadership duration unestablished

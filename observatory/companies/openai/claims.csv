@@ -1,0 +1,4 @@
+claim_id,claim,claim_state,source_id,related_observation,limitation
+CLM001,Original HTML and current API role captures are different historical datasets,DOCUMENTED,SRC001,OBS001,Separate snapshots with differing ingestion methods
+CLM002,Frozen API postings alone do not establish current availability,DOCUMENTED,SRC002,OBS002,Current job page check required
+CLM003,Remote advertising does not establish work-from-Utah eligibility,INFERRED,SRC003,OBS003,Actual role/jurisdiction terms must be confirmed
