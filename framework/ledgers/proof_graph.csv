@@ -4,3 +4,4 @@ PG002,001-B,REQ002,EV002,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverifi
 PG003,001-C,REQ003,EV003,NOT_SATISFIED,missing_ability_or_tenure,Project tests do not fill eight years of professional experience
 PG004,001-D,REQ004,EV004,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverified,Provenance coding is not vendor-security assessment
 PG005,001-E,REQ005,EV005,TRANSFERABLE_NOT_SUFFICIENT,missing_ability_or_unverified,Documentation is not senior security program leadership
+PG006,001-F,REQ006,EV001,TRANSFERABLE_NOT_SUFFICIENT,missing_evidence,Reported support experience is relevant; six-plus years and high-impact advertiser case ownership not independently established
