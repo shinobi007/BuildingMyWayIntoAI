@@ -1760,3 +1760,57 @@ Which job should I apply to?
 ```
 
 The value is in the evidence trail between the question and the decision.
+
+---
+
+# 47. Application Submission Milestone — October 9, 2026
+
+## 47.1 Five real applications submitted
+
+The candidate reported submitting five applications through OpenAI's application system:
+
+| Target | Position | Location |
+|---|---|---|
+| 001-A | IT Support Specialist | Seattle |
+| 001-B | Dedicated Support Engineer | San Francisco |
+| 001-C | AI Support Engineer | San Francisco |
+| 001-E | Security Program Manager | US Remote advertised; eligibility unverified |
+| 001-F | Senior Support Specialist, Ads | San Francisco |
+
+Target 001-D, Vendor Security Technical Program Manager, was investigated but not submitted. Its historical research and Proof Graph relationship remain preserved.
+
+All five submitted applications have pending outcomes. Submission dates are recorded as 2026-10-09, based on the applicant's report. Official submission confirmation receipts have not been archived as evidence in the current ledgers.
+
+## 47.2 ProofLoop operational tracking
+
+The shared framework now records:
+
+- Five submitted applications in applications.csv.
+- Five submission events in application_events.csv.
+- Employer sources through SRC010.
+- Requirements REQ001 through REQ006.
+- Proof Graph relationships PG001 through PG006.
+- Existing evidence records EV001 through EV006.
+
+The original evidence records remain intact. Proof Graph relationships explicitly preserve qualification gaps and limitations rather than treating transferable experience as proof of full qualification.
+
+## 47.3 Published Git milestones
+
+- 1b817d0 — Record five submitted OpenAI applications.
+- a931acc — Record five application submission events.
+- b1334db — Link the fifth application to employer source, requirement, and evidence.
+
+These commits establish project-documentation provenance. They do not independently verify receipt of applications by the employer.
+
+## 47.4 What remains open
+
+Attempt #001 has reached the submission and tracking milestone, but the hiring cycle is not closed.
+
+Remaining work includes preserving actual employer confirmation receipts when available, tracking interview or rejection events, maintaining accurate evidence and qualification states, and completing a retrospective as outcomes become known.
+
+Further applications to other employers may proceed while Attempt #001 outcomes remain pending.
+
+## 47.5 Historical continuity
+
+Earlier sections describing application preparation and submission as future work are retained as records of the project's earlier state. This section supersedes those earlier progress labels without rewriting the historical engineering and selection narrative.
+
