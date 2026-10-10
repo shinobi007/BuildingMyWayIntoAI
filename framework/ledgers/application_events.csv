@@ -1,1 +1,6 @@
 event_id,target_id,event_type,occurred_at,source_or_confirmation,notes
+001-A-01,001-A,application_submitted,2026-10-09,applicant_confirmation_in_chat,Submission reported by applicant; external confirmation receipt not yet archived.
+001-B-01,001-B,application_submitted,2026-10-09,applicant_confirmation_in_chat,Submission reported by applicant; external confirmation receipt not yet archived.
+001-C-01,001-C,application_submitted,2026-10-09,applicant_confirmation_in_chat,Submission reported by applicant; external confirmation receipt not yet archived.
+001-E-01,001-E,application_submitted,2026-10-09,applicant_confirmation_in_chat,Submission reported by applicant; external confirmation receipt not yet archived.
+001-F-01,001-F,application_submitted,2026-10-09,applicant_confirmation_in_chat,Submission reported by applicant; external confirmation receipt not yet archived.
