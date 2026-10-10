@@ -38,3 +38,4 @@ Thumbs.db
 # CSV and JSONL are NOT excluded wholesale: early history and small source
 # examples may be valuable. Staging is intentional rather than 'git add .'.
 # Publish only curated source/data; audit staged paths for credentials.
+/Day1/FinalVersion/private/
